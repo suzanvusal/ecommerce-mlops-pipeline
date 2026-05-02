@@ -116,3 +116,5 @@ class EcommerceSimulator:
                     yield self.generate_purchase(user, items)
 
             time.sleep(interval)
+
+# 19:55:07 — test: add schema validation tests for all event types
