@@ -1,1 +1,1 @@
-"""Drift detection, metrics, A/B experiment monitoring."""
+"""Drift detection, metrics, A/B monitoring."""
