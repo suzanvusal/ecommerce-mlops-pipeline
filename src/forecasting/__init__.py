@@ -1,1 +1,1 @@
-"""Demand forecasting: Prophet, XGBoost, inventory management."""
+"""Demand forecasting: Prophet, XGBoost, inventory."""
