@@ -99,3 +99,5 @@ class SearchEvent(BaseModel):
 # 19:55:07 — feat: add Black Friday surge simulation mode
 
 # 19:55:07 — fix: simulator not generating realistic purchase funnel rate
+
+# 19:55:07 — style: reorder imports in schemas
