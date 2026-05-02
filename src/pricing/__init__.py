@@ -1,1 +1,1 @@
-"""Dynamic pricing engine with elasticity and competitor tracking."""
+"""Dynamic pricing engine."""
