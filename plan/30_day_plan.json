@@ -1,0 +1,224 @@
+{
+  "project": "E-Commerce MLOps Pipeline — General Retail",
+  "description": "Production-grade MLOps system for general retail: real-time recommendations, demand forecasting, dynamic pricing, and inventory management with automated drift detection and retraining.",
+  "phases": [
+    {"phase": 1, "name": "Foundation & Event Ingestion", "days": [1,2,3,4,5], "theme": "Kafka event streaming, user/product schemas, click simulation, CI/CD"},
+    {"phase": 2, "name": "Feature Engineering & User Behaviour", "days": [6,7,8,9,10], "theme": "Session features, purchase history, product embeddings, feature store"},
+    {"phase": 3, "name": "Recommendation Engine", "days": [11,12,13,14,15,16,17], "theme": "Collaborative filtering, two-tower model, real-time serving, A/B testing"},
+    {"phase": 4, "name": "Demand Forecasting & Dynamic Pricing", "days": [18,19,20,21,22], "theme": "Prophet, XGBoost forecaster, price elasticity, inventory alerts"},
+    {"phase": 5, "name": "Drift Detection & Auto Retraining", "days": [23,24,25,26,27], "theme": "Evidently drift, Airflow retraining DAG, validation, canary"},
+    {"phase": 6, "name": "Hardening, Tests & Documentation", "days": [28,29,30], "theme": "Integration tests, load tests, security, full docs"}
+  ],
+  "days": [
+    {
+      "day": 1, "title": "Project bootstrap & event schema design",
+      "focus": "Init repo, directory structure, e-commerce event data models, base configs",
+      "files_to_create": ["src/__init__.py","src/ingestion/__init__.py","src/features/__init__.py","src/recommendations/__init__.py","src/forecasting/__init__.py","src/pricing/__init__.py","src/serving/__init__.py","src/monitoring/__init__.py","configs/base_config.yaml","Makefile"],
+      "commit_tasks": ["chore: init ecommerce-mlops-pipeline project structure","chore: add pyproject.toml with all ML and streaming dependencies","chore: add Docker Compose for Kafka, Redis, PostgreSQL, MLflow","chore: add base_config.yaml with Kafka and feature store settings","docs: add initial README with e-commerce pipeline overview","ci: add GitHub Actions CI workflow","chore: add Makefile with common dev commands","chore: add .gitignore for Python and ML artifacts","chore: add .env.example with all environment variables","fix: correct Kafka broker port in base config"],
+      "refactor_fix_commits": ["style: format all Python files with black","refactor: split docker-compose into dev and prod profiles","docs: add CONTRIBUTING.md","chore: pin all dependency versions","fix: correct Redis maxmemory config"]
+    },
+    {
+      "day": 2, "title": "E-commerce event schemas & Kafka producers",
+      "focus": "Pydantic schemas for clicks, purchases, searches, product views",
+      "files_to_create": ["src/ingestion/schemas.py","src/ingestion/producer.py","src/ingestion/simulator.py","src/ingestion/topic_admin.py","tests/unit/test_schemas.py"],
+      "commit_tasks": ["feat: add ClickEvent Pydantic schema with user and product fields","feat: add PurchaseEvent schema with order details","feat: add SearchEvent schema with query and results","feat: add ProductViewEvent schema with session context","feat: add UserProfile schema with purchase history","feat: add ProductCatalog schema with category and pricing","feat: implement Kafka producer with retry and compression","feat: implement realistic e-commerce event simulator","feat: add Black Friday surge simulation mode","test: add schema validation tests for all event types"],
+      "refactor_fix_commits": ["fix: handle missing user_id for anonymous sessions","refactor: extract Kafka config to dataclass","fix: simulator not generating realistic purchase funnel rates","perf: switch to orjson for event serialization","docs: add event schema documentation"]
+    },
+    {
+      "day": 3, "title": "Docker infrastructure & monitoring stack",
+      "focus": "Multi-stage Dockerfiles, health checks, Prometheus, Grafana setup",
+      "files_to_create": ["docker-compose.yml","infra/docker/Dockerfile.serving","infra/docker/Dockerfile.features","infra/prometheus/prometheus.yml","infra/grafana/dashboards/ecommerce_overview.json"],
+      "commit_tasks": ["infra: add Docker Compose with all required services","feat: add multi-stage Dockerfile for serving service","feat: add multi-stage Dockerfile for feature engineering","infra: add Prometheus scrape config","infra: add Grafana e-commerce overview dashboard","infra: configure Docker volumes for persistence","infra: add health checks for all containers","infra: add resource limits to Docker services","feat: add Redis Streams for real-time event processing"],
+      "refactor_fix_commits": ["fix: reduce Docker image size using slim base","refactor: consolidate env vars","fix: Grafana provisioning path incorrect","chore: add docker-compose.override.yml for local dev","docs: add infrastructure setup guide"]
+    },
+    {
+      "day": 4, "title": "CI/CD pipeline",
+      "focus": "GitHub Actions CI with lint, test, build, security scanning",
+      "files_to_create": [".github/workflows/ci.yml","pyproject.toml",".pre-commit-config.yaml","scripts/run_tests.sh","configs/linting_config.yaml"],
+      "commit_tasks": ["ci: add GitHub Actions CI with Python 3.11 and 3.12","ci: add pytest with 80% coverage threshold","ci: add ruff linting step","ci: add mypy type checking","ci: add Docker build verification","ci: add Bandit security scan","ci: add pip-audit dependency check","ci: cache pip dependencies","ci: add PR labeler workflow","chore: add pre-commit hooks"],
+      "refactor_fix_commits": ["fix: set PYTHONPATH correctly in CI","ci: add concurrency group to cancel stale runs","refactor: extract reusable CI steps","docs: add CI badge to README","fix: mypy failing on missing stubs"]
+    },
+    {
+      "day": 5, "title": "Kafka consumer & event validation pipeline",
+      "focus": "Event consumer, validation, DLQ routing, session tracking",
+      "files_to_create": ["src/ingestion/consumer.py","src/ingestion/validator.py","src/ingestion/session_tracker.py","configs/consumer_config.yaml","tests/unit/test_consumer.py"],
+      "commit_tasks": ["feat: implement EventConsumer with manual offset commit","feat: add EventValidator with business rule checks","feat: implement SessionTracker for user journey tracking","feat: add DLQ handler for malformed events","feat: implement consumer group for horizontal scaling","feat: add consumer lag metric to Prometheus","feat: implement event deduplication with Redis","feat: add session timeout detection (30 min inactivity)","test: add consumer integration test","test: add validator tests for all event types"],
+      "refactor_fix_commits": ["fix: handle anonymous session merging on login","refactor: move consumer config to Pydantic dataclass","fix: DLQ not routing duplicate events","perf: increase max_poll_records to 500","docs: add consumer architecture diagram"]
+    },
+    {
+      "day": 6, "title": "User behaviour feature engineering",
+      "focus": "Session features, click-through rates, purchase propensity, recency",
+      "files_to_create": ["src/features/user_features.py","src/features/session_features.py","src/features/rfm_calculator.py","configs/feature_config.yaml","tests/unit/test_user_features.py"],
+      "commit_tasks": ["feat: implement RFM calculator (Recency, Frequency, Monetary)","feat: add session-level click-through rate feature","feat: implement cart abandonment rate per user","feat: add average session duration feature","feat: implement category affinity scores per user","feat: add time-of-day purchase pattern features","feat: implement device type preference features","feat: add discount sensitivity score per user","feat: implement user lifetime value (LTV) estimator","test: add RFM calculator tests with known inputs"],
+      "refactor_fix_commits": ["fix: RFM recency not using correct time reference","refactor: extract window sizes to feature config","fix: LTV estimator crashing on users with single purchase","perf: vectorise RFM computation with pandas","docs: add user feature documentation"]
+    },
+    {
+      "day": 7, "title": "Product feature engineering",
+      "focus": "Product popularity, category trends, price elasticity features",
+      "files_to_create": ["src/features/product_features.py","src/features/trend_detector.py","src/features/price_features.py","configs/product_config.yaml","tests/unit/test_product_features.py"],
+      "commit_tasks": ["feat: implement product popularity score (views, clicks, purchases)","feat: add category-level trend detection","feat: implement product price elasticity estimator","feat: add cross-sell affinity matrix computation","feat: implement seasonal demand index per product","feat: add product review sentiment score feature","feat: implement stock-to-demand ratio feature","feat: add competitor price gap feature","feat: implement new product cold start score","test: add product feature tests with synthetic catalog"],
+      "refactor_fix_commits": ["fix: popularity score not decaying for old products","refactor: separate trend detection from product features","fix: price elasticity failing on products with fixed prices","perf: cache cross-sell affinity matrix","docs: add product feature engineering guide"]
+    },
+    {
+      "day": 8, "title": "Redis feature store & real-time updates",
+      "focus": "Feature store backed by Redis, real-time feature updates, TTL management",
+      "files_to_create": ["src/features/feature_store.py","src/features/cache_manager.py","src/features/feature_schema.py","configs/redis_config.yaml","tests/unit/test_feature_store.py"],
+      "commit_tasks": ["feat: implement Redis-backed feature store for users and products","feat: add user feature vector with 35 engineered features","feat: add product feature vector with 28 engineered features","feat: implement feature TTL: user=24h, product=1h","feat: add real-time feature update on every event","feat: implement feature versioning for model compatibility","feat: add batch feature retrieval for training","feat: implement feature store health monitoring","feat: add stale feature detection","test: add feature store tests with Redis mock"],
+      "refactor_fix_commits": ["fix: feature TTL not extending on user activity","refactor: abstract feature store behind interface","fix: batch retrieval returning partially stale features","perf: compress feature vectors before Redis storage","docs: add feature store architecture diagram"]
+    },
+    {
+      "day": 9, "title": "Product embeddings with Word2Vec",
+      "focus": "Product2Vec embeddings from purchase sequences, similarity search",
+      "files_to_create": ["src/features/product_embeddings.py","src/features/embedding_store.py","src/features/similarity_search.py","configs/embedding_config.yaml","tests/unit/test_product_embeddings.py"],
+      "commit_tasks": ["feat: implement Product2Vec using gensim Word2Vec","feat: train embeddings on purchase sequence co-occurrence","feat: add embedding store backed by ChromaDB","feat: implement ANN similarity search for recommendations","feat: add embedding quality evaluation (coverage, diversity)","feat: implement incremental embedding updates on new purchases","feat: add category-level embedding aggregation","feat: implement embedding drift detector","test: add embedding tests verifying similar products cluster"],
+      "refactor_fix_commits": ["fix: cold start products have zero embeddings","refactor: separate training from serving embeddings","fix: similarity search returning duplicate results","perf: use FAISS for faster ANN search","docs: add embedding methodology documentation"]
+    },
+    {
+      "day": 10, "title": "Monitoring dashboards & Prometheus metrics",
+      "focus": "Custom e-commerce metrics, Grafana dashboards, business KPIs",
+      "files_to_create": ["src/monitoring/metrics.py","infra/grafana/dashboards/recommendation_performance.json","infra/grafana/dashboards/business_kpis.json","infra/prometheus/rules/slo_rules.yml","configs/monitoring_config.yaml"],
+      "commit_tasks": ["feat: add Counter for events processed per type","feat: add Histogram for recommendation latency","feat: add Gauge for conversion rate (rolling 1hr)","feat: add Counter for recommendations clicked","feat: implement Grafana recommendation performance dashboard","feat: implement Grafana business KPI dashboard","feat: add SLO rule: 99% recommendations under 50ms","feat: add Prometheus alert for conversion rate drop","infra: configure Alertmanager for business team routing"],
+      "refactor_fix_commits": ["fix: high cardinality on product_id Prometheus label","refactor: centralise metric registration","fix: Grafana dashboard not auto-refreshing","docs: add runbook for conversion rate drop alert","chore: add Prometheus recording rules"]
+    },
+    {
+      "day": 11, "title": "MLflow experiment tracking & training data pipeline",
+      "focus": "MLflow setup, interaction matrix, train/val/test split",
+      "files_to_create": ["src/models/mlflow_client.py","src/models/data_pipeline.py","src/models/interaction_matrix.py","configs/mlflow_config.yaml","configs/training_config.yaml"],
+      "commit_tasks": ["feat: configure MLflow tracking server with PostgreSQL backend","feat: implement MLflow client wrapper","feat: add interaction matrix builder from purchase/click events","feat: implement temporal train/val/test split","feat: add negative sampling for implicit feedback","feat: implement user/item ID mapping and encoding","feat: add dataset statistics logging to MLflow","feat: implement data quality validation pipeline","feat: add feature importance analysis utility","test: add data pipeline tests for temporal split"],
+      "refactor_fix_commits": ["fix: temporal leakage in train/val split","refactor: separate matrix building from feature extraction","fix: negative sampling too aggressive for popular items","perf: parallelise interaction matrix construction","docs: add data dictionary for all features"]
+    },
+    {
+      "day": 12, "title": "Collaborative filtering with ALS",
+      "focus": "Alternating Least Squares, implicit feedback, top-K recommendations",
+      "files_to_create": ["src/recommendations/als_model.py","src/recommendations/implicit_feedback.py","notebooks/01_collaborative_filtering.ipynb","tests/unit/test_als_model.py","configs/als_config.yaml"],
+      "commit_tasks": ["feat: implement ALS collaborative filtering with implicit library","feat: add implicit feedback weighting (purchase > cart > click)","feat: implement top-K recommendation generation","feat: add user and item factor logging to MLflow","feat: implement evaluation metrics: NDCG@10, Precision@10","feat: add cold start handler for new users","feat: implement item-item similarity from ALS factors","feat: add recommendation diversity scorer","test: add ALS tests with synthetic interaction matrix"],
+      "refactor_fix_commits": ["fix: ALS not converging on sparse interaction matrix","refactor: extract evaluation metrics to shared module","fix: cold start returning popular items only","perf: enable GPU training for ALS","docs: add collaborative filtering methodology"]
+    },
+    {
+      "day": 13, "title": "Two-Tower deep learning model",
+      "focus": "PyTorch two-tower model, user/item towers, contrastive learning",
+      "files_to_create": ["src/recommendations/two_tower_model.py","src/recommendations/tower_dataset.py","src/recommendations/two_tower_trainer.py","notebooks/02_two_tower_model.ipynb","tests/unit/test_two_tower.py"],
+      "commit_tasks": ["feat: implement two-tower neural network in PyTorch","feat: add user tower: embedding + MLP layers","feat: add item tower: embedding + MLP layers","feat: implement in-batch negative sampling","feat: add contrastive loss with temperature scaling","feat: implement PyTorch Lightning training loop","feat: add FAISS index building from item tower embeddings","feat: log training curves to MLflow every epoch","feat: implement approximate nearest neighbour retrieval","test: add two-tower shape and forward pass tests"],
+      "refactor_fix_commits": ["fix: gradient explosion in user tower","refactor: separate model definition from training","perf: enable mixed precision fp16 training","fix: FAISS index not rebuilding on model update","docs: add two-tower architecture diagram"]
+    },
+    {
+      "day": 14, "title": "Ensemble recommendation pipeline",
+      "focus": "Combine ALS + Two-Tower + popularity, ranking model, diversity",
+      "files_to_create": ["src/recommendations/ensemble_ranker.py","src/recommendations/popularity_model.py","src/recommendations/diversity_reranker.py","notebooks/03_ensemble_analysis.ipynb","tests/unit/test_ensemble_ranker.py"],
+      "commit_tasks": ["feat: implement EnsembleRanker combining ALS, Two-Tower, Popularity","feat: add popularity-based fallback for cold start users","feat: implement learning-to-rank with LightGBM","feat: add diversity reranker using MMR algorithm","feat: implement business rule filter (remove out-of-stock)","feat: add price range filter for personalised results","feat: implement ensemble weight optimisation on val set","feat: add recommendation explanation generation","test: add ensemble tests verifying coverage and diversity"],
+      "refactor_fix_commits": ["fix: ensemble weights not normalising to 1.0","refactor: decouple ranking from retrieval","fix: diversity reranker too slow for real-time use","perf: parallelise candidate scoring","docs: add ensemble methodology documentation"]
+    },
+    {
+      "day": 15, "title": "FastAPI recommendation serving endpoint",
+      "focus": "FastAPI serving, sub-50ms recommendations, caching, A/B routing",
+      "files_to_create": ["src/serving/api.py","src/serving/recommendation_service.py","src/serving/request_models.py","src/serving/response_models.py","tests/unit/test_serving_api.py"],
+      "commit_tasks": ["feat: scaffold FastAPI app with lifespan model loading","feat: add GET /recommendations/{user_id} endpoint","feat: add POST /recommendations/batch for bulk serving","feat: add GET /similar/{product_id} for item-to-item recs","feat: implement Redis cache with 60-second TTL","feat: add A/B router for model experimentation","feat: add Prometheus latency middleware","feat: implement request ID tracing","feat: add recommendation diversity metrics logging","test: add pytest-asyncio tests for all endpoints"],
+      "refactor_fix_commits": ["perf: preload FAISS index on startup","fix: cache miss storm on model reload","refactor: separate recommendation logic from routes","fix: batch endpoint timeout on large user lists","docs: generate OpenAPI spec"]
+    },
+    {
+      "day": 16, "title": "A/B testing framework for recommendations",
+      "focus": "Traffic splitting, experiment logging, statistical significance testing",
+      "files_to_create": ["src/serving/ab_router.py","src/serving/experiment_logger.py","src/serving/significance_tester.py","configs/ab_config.yaml","tests/unit/test_ab_router.py"],
+      "commit_tasks": ["feat: implement ABRouter with configurable traffic splits","feat: add sticky user assignment by user_id hash","feat: implement experiment logger to PostgreSQL","feat: add conversion tracking per experiment variant","feat: implement two-proportion z-test for significance","feat: add experiment dashboard endpoint","feat: implement automatic winner promotion on significance","feat: add experiment audit log","test: add A/B router tests for traffic split accuracy"],
+      "refactor_fix_commits": ["fix: user assignment not sticky across sessions","refactor: extract significance testing to separate module","fix: experiment logger dropping events under high load","perf: cache experiment assignments in Redis","docs: add A/B testing guide to docs/ab_testing.md"]
+    },
+    {
+      "day": 17, "title": "Recommendation logging & feedback collection",
+      "focus": "Impression logging, click tracking, purchase attribution, feedback loop",
+      "files_to_create": ["src/serving/impression_logger.py","src/serving/attribution_engine.py","src/monitoring/conversion_tracker.py","configs/logging_config.yaml","tests/unit/test_impression_logger.py"],
+      "commit_tasks": ["feat: implement impression logger for all served recommendations","feat: add click logging with position bias tracking","feat: implement purchase attribution to recommendation source","feat: add multi-touch attribution model","feat: implement rolling CTR and conversion rate computation","feat: add recommendation quality metrics logging","feat: implement feedback dataset builder for retraining","feat: add long-term impact tracker (7-day, 30-day LTV)","test: add impression logger completeness tests"],
+      "refactor_fix_commits": ["fix: attribution window too short missing delayed purchases","refactor: use asyncpg for async logging","fix: position bias not corrected in CTR computation","perf: batch impression log writes every 200ms","docs: add attribution methodology documentation"]
+    },
+    {
+      "day": 18, "title": "Demand forecasting with Prophet",
+      "focus": "Facebook Prophet for time-series demand forecasting, seasonality",
+      "files_to_create": ["src/forecasting/prophet_forecaster.py","src/forecasting/seasonality_detector.py","src/forecasting/forecast_store.py","configs/forecasting_config.yaml","tests/unit/test_prophet_forecaster.py"],
+      "commit_tasks": ["feat: implement ProphetForecaster for product demand prediction","feat: add weekly and yearly seasonality components","feat: implement holiday effect modelling for Black Friday etc","feat: add promotion/sale event regressors","feat: implement category-level demand aggregation","feat: add forecast confidence interval generation","feat: implement forecast accuracy evaluation (MAPE, RMSE)","feat: add forecast store backed by PostgreSQL","test: add Prophet tests with synthetic seasonal demand"],
+      "refactor_fix_commits": ["fix: Prophet crashing on products with fewer than 30 data points","refactor: separate seasonality detection from forecasting","fix: holiday effects too strong for niche products","perf: parallelise forecasting across product categories","docs: add demand forecasting methodology"]
+    },
+    {
+      "day": 19, "title": "XGBoost demand forecasting with features",
+      "focus": "XGBoost tabular forecaster with lag features, promotions, weather",
+      "files_to_create": ["src/forecasting/xgboost_forecaster.py","src/forecasting/lag_feature_builder.py","src/forecasting/forecast_ensemble.py","notebooks/04_demand_forecasting.ipynb","tests/unit/test_xgboost_forecaster.py"],
+      "commit_tasks": ["feat: implement XGBoost demand forecaster with lag features","feat: add lag features: 1d, 7d, 14d, 28d, 365d","feat: implement rolling mean/std lag features","feat: add promotion flag and discount depth features","feat: implement day-of-week and month-of-year encoding","feat: add cross-product demand spillover features","feat: implement ForecastEnsemble combining Prophet and XGBoost","feat: add forecast uncertainty quantification","test: add XGBoost forecaster tests with known demand patterns"],
+      "refactor_fix_commits": ["fix: lag features leaking future demand","refactor: extract lag builder to separate class","fix: ensemble weights not optimised per category","perf: enable parallel XGBoost training","docs: add feature engineering guide for forecasting"]
+    },
+    {
+      "day": 20, "title": "Dynamic pricing engine",
+      "focus": "Price elasticity, competitor pricing, demand-based price optimisation",
+      "files_to_create": ["src/pricing/pricing_engine.py","src/pricing/elasticity_model.py","src/pricing/competitor_tracker.py","configs/pricing_config.yaml","tests/unit/test_pricing_engine.py"],
+      "commit_tasks": ["feat: implement DynamicPricingEngine with demand forecasts","feat: add price elasticity estimator using log-log regression","feat: implement competitor price tracker","feat: add margin constraint enforcement in pricing","feat: implement promotional pricing calendar","feat: add inventory-based price surge for low-stock items","feat: implement price change audit log","feat: add pricing experiment framework","feat: implement price rounding rules per category","test: add pricing engine tests for margin constraints"],
+      "refactor_fix_commits": ["fix: price elasticity negative for Giffen goods","refactor: separate pricing rules from optimisation","fix: competitor tracker failing on rate limits","perf: cache elasticity coefficients per product","docs: add dynamic pricing methodology"]
+    },
+    {
+      "day": 21, "title": "Inventory alert & auto-reorder system",
+      "focus": "Stock level monitoring, reorder point calculation, supplier integration",
+      "files_to_create": ["src/forecasting/inventory_manager.py","src/forecasting/reorder_engine.py","src/forecasting/supplier_client.py","configs/inventory_config.yaml","tests/unit/test_inventory_manager.py"],
+      "commit_tasks": ["feat: implement InventoryManager with real-time stock tracking","feat: add reorder point calculator using demand forecast + lead time","feat: implement safety stock computation","feat: add automatic purchase order generation","feat: implement supplier API client with webhook support","feat: add stockout prediction (days until zero stock)","feat: implement inventory turnover ratio tracker","feat: add dead stock detector (no movement > 90 days)","test: add inventory manager tests for reorder triggers"],
+      "refactor_fix_commits": ["fix: reorder point not accounting for forecast uncertainty","refactor: separate stock tracking from reorder logic","fix: supplier API timeout causing order delays","perf: cache demand forecasts for inventory computation","docs: add inventory management guide"]
+    },
+    {
+      "day": 22, "title": "Grafana business dashboards",
+      "focus": "Revenue dashboard, recommendation CTR, inventory health, pricing dashboard",
+      "files_to_create": ["infra/grafana/dashboards/revenue_dashboard.json","infra/grafana/dashboards/inventory_health.json","infra/grafana/dashboards/pricing_dashboard.json","infra/grafana/provisioning/dashboards.yaml","scripts/grafana_import.sh"],
+      "commit_tasks": ["feat: add Grafana revenue and GMV dashboard","feat: add recommendation CTR and conversion panel","feat: implement inventory health heatmap by category","feat: add dynamic pricing impact panel","feat: implement demand forecast vs actual panel","feat: add stockout risk by category panel","feat: implement A/B experiment results panel","infra: add dashboard provisioning config","feat: add time-range variable to all dashboards"],
+      "refactor_fix_commits": ["fix: Grafana panels using wrong metric labels","refactor: extract repeated JSON to template","fix: revenue dashboard not handling refunds","style: consistent colour scheme across dashboards","chore: version-control dashboards with jq"]
+    },
+    {
+      "day": 23, "title": "Evidently drift detection",
+      "focus": "User behaviour drift, product popularity drift, model performance monitoring",
+      "files_to_create": ["src/monitoring/drift_detector.py","src/monitoring/reference_builder.py","src/monitoring/performance_monitor.py","configs/drift_config.yaml","tests/unit/test_drift_detector.py"],
+      "commit_tasks": ["feat: implement Evidently DataDriftPreset for user features","feat: add reference dataset builder from stable training window","feat: implement scheduled drift report runner every 6 hours","feat: add prediction drift monitoring for recommendations","feat: implement rolling NDCG@10 monitor from feedback","feat: add drift severity classification: none/warning/critical","feat: save drift reports as HTML to S3","feat: implement drift metric emission to Prometheus","test: add drift detection test with synthetic behaviour shift"],
+      "refactor_fix_commits": ["fix: Evidently failing on sparse user features","refactor: parameterise drift thresholds in config","fix: reference builder including holiday periods causing false drift","perf: run drift reports in parallel per feature group","docs: add drift detection methodology"]
+    },
+    {
+      "day": 24, "title": "Airflow retraining DAG",
+      "focus": "Drift-triggered retraining, dataset assembly, model training orchestration",
+      "files_to_create": ["infra/airflow/docker-compose.airflow.yml","src/retraining/__init__.py","src/retraining/dags/ecommerce_model_retraining.py","src/retraining/dataset_assembler.py","configs/airflow_config.yaml"],
+      "commit_tasks": ["infra: add Airflow with CeleryExecutor","feat: scaffold ecommerce_model_retraining DAG","feat: add DriftSensor polling Prometheus drift metrics","feat: implement interaction matrix assembly task","feat: add ALS retraining task","feat: add Two-Tower retraining task","feat: add ensemble weight optimisation task","feat: add demand forecast retraining task","ci: add Airflow DAG import validation"],
+      "refactor_fix_commits": ["fix: Airflow FERNET_KEY not set on startup","refactor: move DAG defaults to shared module","fix: Celery worker not detecting DAG changes","chore: add airflow db upgrade to startup","docs: add Airflow setup guide"]
+    },
+    {
+      "day": 25, "title": "Model validation & canary deployment",
+      "focus": "Offline and online validation, champion/challenger, canary with business metrics",
+      "files_to_create": ["src/retraining/model_validator.py","src/retraining/canary_manager.py","src/retraining/model_promoter.py","tests/unit/test_model_validator.py","configs/validation_config.yaml"],
+      "commit_tasks": ["feat: implement model validator with NDCG and CTR gates","feat: add offline evaluation: NDCG@10, Precision@10, Recall@10","feat: implement online evaluation via shadow traffic","feat: add business metric gate: CTR must not drop > 5%","feat: implement canary deployment manager","feat: add traffic ramp: 5% to 20% to 50% to 100%","feat: implement automatic rollback on CTR regression","feat: add automated MLflow stage promotion","test: add validator tests for promotion blocking"],
+      "refactor_fix_commits": ["fix: NDCG computation using wrong ranking formula","refactor: decouple validation from MLflow registration","fix: canary rollback not reverting feature store","docs: add model governance policy","chore: add validation report template"]
+    },
+    {
+      "day": 26, "title": "Load testing & performance benchmarking",
+      "focus": "Locust load tests, recommendation throughput, P99 latency validation",
+      "files_to_create": ["tests/load/locustfile.py","tests/load/scenarios/recommendation_load.py","tests/load/scenarios/search_load.py","docs/performance_report.md","scripts/run_load_test.sh"],
+      "commit_tasks": ["test: add Locust load test for /recommendations/{user_id}","test: add batch recommendation scenario (1000 users)","test: add concurrent search and recommendation scenario","feat: add async recommendation pool for throughput","perf: add recommendation cache reducing P50 by 60%","perf: tune uvicorn worker count","perf: optimise FAISS search with GPU index","docs: add performance benchmark results"],
+      "refactor_fix_commits": ["fix: memory leak in FAISS index under sustained load","perf: profile and fix N+1 Redis queries","refactor: switch sync DB calls to async","fix: Kafka consumer lag under burst event load","docs: add capacity planning guide"]
+    },
+    {
+      "day": 27, "title": "Security hardening & PII compliance",
+      "focus": "User data encryption, GDPR compliance, audit logging, access control",
+      "files_to_create": ["src/security/__init__.py","src/security/encryption.py","src/security/audit_logger.py","src/security/gdpr_handler.py","docs/privacy_compliance.md"],
+      "commit_tasks": ["feat: implement AES-256 encryption for user PII data","feat: add GDPR right-to-erasure handler","feat: implement comprehensive audit logger for all data access","feat: add role-based access control (analyst/engineer/admin)","feat: implement PII tokenisation for ML training data","feat: add API rate limiting per client","feat: implement data retention policy enforcement","docs: add GDPR compliance documentation","test: add security tests for PII handling"],
+      "refactor_fix_commits": ["fix: audit log missing user_id on anonymous events","refactor: centralise PII tokenisation logic","fix: data retention not deleting from feature store","docs: add security architecture document","chore: add SAST scan to CI pipeline"]
+    },
+    {
+      "day": 28, "title": "Comprehensive test suite",
+      "focus": "Unit test coverage > 80%, property tests, mutation testing",
+      "files_to_create": ["tests/unit/test_user_features.py","tests/unit/test_product_features.py","tests/unit/test_als_model.py","tests/unit/test_pricing_engine.py","scripts/mutation_test.sh"],
+      "commit_tasks": ["test: add unit tests for all user feature computations","test: add property-based tests for RFM calculator","test: add parametrised tests for pricing engine constraints","test: add ALS recommendation tests with synthetic data","test: add Prophet forecaster tests with seasonal patterns","test: run mutmut mutation testing and fix surviving mutants","ci: enforce 80% coverage threshold","ci: add coverage report to Codecov"],
+      "refactor_fix_commits": ["fix: 11 failing tests from schema field rename","refactor: consolidate fixtures in conftest.py","fix: flaky ALS test due to random seed","test: add snapshot tests for API response schemas","docs: document test strategy"]
+    },
+    {
+      "day": 29, "title": "Kubernetes deployment manifests",
+      "focus": "K8s deployments, HPA autoscaling, PodDisruptionBudget, ingress",
+      "files_to_create": ["infra/k8s/namespace.yaml","infra/k8s/recommendation-deployment.yaml","infra/k8s/forecasting-deployment.yaml","infra/k8s/hpa.yaml","infra/k8s/ingress.yaml"],
+      "commit_tasks": ["infra: add Kubernetes namespace with resource quotas","infra: add recommendation service deployment with 3 replicas","infra: add forecasting service deployment","infra: add HPA scaling on CPU and recommendation latency","infra: add PodDisruptionBudget for zero-downtime","infra: add ConfigMap for environment configuration","infra: add Ingress with TLS termination","infra: add PVC for MLflow artifacts","infra: add Network Policies for service isolation"],
+      "refactor_fix_commits": ["fix: HPA min replicas too low for peak traffic","refactor: extract K8s labels to kustomize base","fix: Ingress not routing to recommendation service","docs: add Kubernetes deployment guide","chore: add kubectl dry-run to CI"]
+    },
+    {
+      "day": 30, "title": "Final polish, README & project completion",
+      "focus": "Complete README, architecture diagrams, changelog, v1.0.0 release",
+      "files_to_create": ["README.md","docs/architecture.md","docs/deployment_guide.md","CHANGELOG.md","SECURITY.md"],
+      "commit_tasks": ["docs: complete README with architecture and quick start","docs: add comprehensive architecture document","docs: add production deployment guide","docs: add CHANGELOG for v1.0.0","security: add SECURITY.md","chore: tag v1.0.0 release","ci: add end-to-end smoke test to release pipeline","docs: add business impact section to README","chore: final dependency audit","chore: archive development notebooks"],
+      "refactor_fix_commits": ["docs: fix broken links in README","fix: env variable names inconsistent","refactor: remove all TODO comments","style: enforce consistent logging format","chore: update Docker base images to latest stable"]
+    }
+  ]
+}
