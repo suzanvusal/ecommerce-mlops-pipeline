@@ -95,3 +95,5 @@ class SearchEvent(BaseModel):
         return self.model_dump(mode="json")
 
 # 19:55:07 — feat: implement realistic e-commerce event simulator
+
+# 19:55:07 — feat: add Black Friday surge simulation mode
