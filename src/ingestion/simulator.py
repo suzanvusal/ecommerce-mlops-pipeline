@@ -118,3 +118,5 @@ class EcommerceSimulator:
             time.sleep(interval)
 
 # 19:55:07 — test: add schema validation tests for all event types
+
+# 19:55:07 — fix: handle missing user_id for anonymous sessions
