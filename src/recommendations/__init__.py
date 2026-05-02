@@ -1,1 +1,1 @@
-"""Recommendation models: ALS, Two-Tower, ensemble ranker."""
+"""Recommendation models: ALS, Two-Tower, ensemble."""
