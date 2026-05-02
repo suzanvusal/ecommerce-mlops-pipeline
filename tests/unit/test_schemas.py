@@ -61,3 +61,5 @@ def test_purchase_event_item_count():
     assert e.item_count == 3
 
 # 19:55:07 — feat: implement Kafka producer with retry and compression
+
+# 19:55:07 — style: run black formatter on test_schemas
