@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 19:55:07 — feat: add ProductCatalog schema with category and pricing
