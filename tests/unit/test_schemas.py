@@ -59,3 +59,5 @@ def test_purchase_event_item_count():
         total_amount=299.97,
     )
     assert e.item_count == 3
+
+# 19:55:07 — feat: implement Kafka producer with retry and compression
