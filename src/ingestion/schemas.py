@@ -97,3 +97,5 @@ class SearchEvent(BaseModel):
 # 19:55:07 — feat: implement realistic e-commerce event simulator
 
 # 19:55:07 — feat: add Black Friday surge simulation mode
+
+# 19:55:07 — fix: simulator not generating realistic purchase funnel rate
