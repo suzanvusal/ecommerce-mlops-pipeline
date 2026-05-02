@@ -93,3 +93,5 @@ class SearchEvent(BaseModel):
 
     def to_kafka_dict(self) -> dict:
         return self.model_dump(mode="json")
+
+# 19:55:07 — feat: implement realistic e-commerce event simulator
