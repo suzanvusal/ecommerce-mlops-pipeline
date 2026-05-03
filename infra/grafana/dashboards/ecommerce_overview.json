@@ -1,0 +1,5 @@
+{
+  "day": 3,
+  "file": "infra/grafana/dashboards/ecommerce_overview.json",
+  "title": "Docker infrastructure & monitoring stack"
+}
