@@ -1,1 +1,3 @@
 # infra/docker/Dockerfile.serving — Day 3: Docker infrastructure & monitoring stack
+
+# 19:55:16 — infra: configure Docker volumes for persistence
