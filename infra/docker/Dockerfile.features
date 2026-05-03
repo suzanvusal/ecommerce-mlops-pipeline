@@ -1,3 +1,5 @@
 # infra/docker/Dockerfile.features — Day 3: Docker infrastructure & monitoring stack
 
 # 19:55:16 — infra: add resource limits to Docker services
+
+# 19:55:16 — feat: add Redis Streams for real-time event processing
