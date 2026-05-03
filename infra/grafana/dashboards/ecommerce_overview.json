@@ -5,3 +5,5 @@
 }
 
 # 19:55:16 — infra: add health checks for all containers
+
+# 19:55:16 — chore: add docker-compose.override.yml for local dev
