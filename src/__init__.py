@@ -2,3 +2,5 @@
 __version__ = "0.1.0"
 
 # 01:52:46 — docs: add module docstring to __init__
+
+# 19:55:16 — docs: fix typo in __init__
