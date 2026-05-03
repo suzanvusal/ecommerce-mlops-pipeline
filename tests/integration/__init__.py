@@ -8,3 +8,5 @@
 # 19:55:07 — refactor: extract constant in __init__
 
 # 19:55:16 — fix: remove unused import in __init__
+
+# 19:55:16 — docs: add module docstring to __init__
