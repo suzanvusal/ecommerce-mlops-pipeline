@@ -3,3 +3,5 @@
   "file": "infra/grafana/dashboards/ecommerce_overview.json",
   "title": "Docker infrastructure & monitoring stack"
 }
+
+# 19:55:16 — infra: add health checks for all containers
