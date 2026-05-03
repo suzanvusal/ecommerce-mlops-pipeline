@@ -5,3 +5,5 @@
 # 01:52:46 — chore: add .env.example with all environment variables
 
 # 01:52:46 — fix: correct Kafka broker port in base config
+
+# 19:55:16 — perf: add caching in __init__
