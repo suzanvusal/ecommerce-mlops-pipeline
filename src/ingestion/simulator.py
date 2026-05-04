@@ -124,3 +124,5 @@ class EcommerceSimulator:
 # 19:55:16 — docs: add module docstring to simulator
 
 # 20:17:58 — chore: day 4 maintenance sweep
+
+# 20:17:58 — docs: fix typo in simulator
