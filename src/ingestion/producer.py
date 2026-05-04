@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 19:55:16 — chore: add logging to producer
 
 # 19:55:16 — refactor: extract constant in producer
+
+# 20:17:59 — perf: add caching in producer
