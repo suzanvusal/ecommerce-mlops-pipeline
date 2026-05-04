@@ -5,3 +5,5 @@
 # 20:17:58 — ci: add Bandit security scan
 
 # 20:17:58 — ci: add concurrency group to cancel stale runs
+
+# 20:17:58 — refactor: extract reusable CI steps
