@@ -5,3 +5,5 @@
 # 20:17:58 — ci: add pip-audit dependency check
 
 # 20:17:58 — chore: add pre-commit hooks
+
+# 20:17:58 — fix: set PYTHONPATH correctly in CI
