@@ -1,3 +1,5 @@
 # .pre-commit-config.yaml
 # Day 4: CI/CD pipeline
 # Generated: 2026-05-04T20:17:58.885346+00:00
+
+# 20:17:58 — ci: add Bandit security scan
