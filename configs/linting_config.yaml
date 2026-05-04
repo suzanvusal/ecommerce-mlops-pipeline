@@ -3,3 +3,5 @@
 # Generated: 2026-05-04T20:17:58.900191+00:00
 
 # 20:17:58 — ci: add pip-audit dependency check
+
+# 20:17:58 — chore: add pre-commit hooks
