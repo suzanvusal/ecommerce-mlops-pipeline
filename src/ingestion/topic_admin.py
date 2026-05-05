@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 19:55:07 — refactor: extract Kafka config to dataclass
 
 # 20:17:58 — refactor: extract constant in topic_admin
+
+# 20:09:39 — perf: add caching in topic_admin
