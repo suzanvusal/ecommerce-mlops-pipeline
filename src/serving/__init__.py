@@ -7,3 +7,5 @@
 # 19:55:07 — style: reorder imports in __init__
 
 # 19:55:16 — style: reorder imports in __init__
+
+# 20:09:39 — test: add assertion for return type in __init__
