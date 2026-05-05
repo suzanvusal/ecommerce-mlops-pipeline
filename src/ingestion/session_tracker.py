@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 20:09:39 — feat: add session timeout detection (30 min inactivity)
