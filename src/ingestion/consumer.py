@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:09:38 — feat: add consumer lag metric to Prometheus
 
 # 20:09:39 — feat: implement event deduplication with Redis
+
+# 20:09:39 — test: add validator tests for all event types
