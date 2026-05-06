@@ -7,3 +7,5 @@
 # 20:09:39 — style: run black formatter on __init__
 
 # 20:25:37 — refactor: extract constant in __init__
+
+# 20:25:37 — docs: add module docstring to __init__
