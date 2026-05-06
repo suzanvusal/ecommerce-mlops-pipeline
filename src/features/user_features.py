@@ -128,3 +128,5 @@ class UserFeatureEngine:
             preferred_category=preferred_cat,
             ltv_estimate=round(rfm.monetary * 1.5, 2),
         )
+
+# 20:25:36 — feat: implement user lifetime value (LTV) estimator
