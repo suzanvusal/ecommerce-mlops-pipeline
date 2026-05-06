@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:09:39 — test: add validator tests for all event types
 
 # 20:09:39 — fix: DLQ not routing duplicate events
+
+# 20:25:37 — fix: correct off-by-one in consumer
