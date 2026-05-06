@@ -132,3 +132,5 @@ class UserFeatureEngine:
 # 20:25:36 — feat: implement user lifetime value (LTV) estimator
 
 # 20:25:36 — test: add RFM calculator tests with known inputs
+
+# 20:25:36 — fix: RFM recency not using correct time reference
