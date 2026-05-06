@@ -7,3 +7,5 @@
 # 01:52:46 — fix: correct Kafka broker port in base config
 
 # 19:55:16 — perf: add caching in __init__
+
+# 20:25:37 — docs: update docstring in __init__
