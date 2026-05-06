@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:25:36 — feat: implement device type preference features
+
+# 20:25:37 — fix: LTV estimator crashing on users with single purchase
