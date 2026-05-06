@@ -5,3 +5,5 @@
 # 01:52:46 — style: reorder imports in __init__
 
 # 20:09:39 — style: run black formatter on __init__
+
+# 20:25:37 — refactor: extract constant in __init__
