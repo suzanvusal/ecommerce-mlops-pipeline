@@ -1,3 +1,5 @@
 # configs/feature_config.yaml
 # Day 6: User behaviour feature engineering
 # Generated: 2026-05-06T20:25:36.943407+00:00
+
+# 20:25:36 — feat: add time-of-day purchase pattern features
