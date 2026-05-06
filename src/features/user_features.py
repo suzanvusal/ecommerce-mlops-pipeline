@@ -134,3 +134,5 @@ class UserFeatureEngine:
 # 20:25:36 — test: add RFM calculator tests with known inputs
 
 # 20:25:36 — fix: RFM recency not using correct time reference
+
+# 20:25:37 — fix: handle None edge case in user_features
