@@ -3,3 +3,5 @@
 # Generated: 2026-05-06T20:25:36.943407+00:00
 
 # 20:25:36 — feat: add time-of-day purchase pattern features
+
+# 20:25:36 — refactor: extract window sizes to feature config
