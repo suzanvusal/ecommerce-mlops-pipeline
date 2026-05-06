@@ -6,3 +6,5 @@
 # 20:17:59 — test: add assertion for return type in __init__
 
 # 20:17:59 — refactor: rename variable for clarity in __init__
+
+# 20:25:37 — perf: add caching in __init__
