@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:16:30 — feat: add competitor price gap feature
+
+# 20:16:30 — test: add product feature tests with synthetic catalog
