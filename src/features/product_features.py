@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:16:30 — feat: implement new product cold start score
+
+# 20:16:30 — refactor: separate trend detection from product features
