@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:16:30 — refactor: separate trend detection from product features
 
 # 20:16:31 — fix: add missing type hint in product_features
+
+# 20:16:31 — fix: handle None edge case in product_features
