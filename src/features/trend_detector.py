@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:16:30 — feat: implement stock-to-demand ratio feature
+
+# 20:16:30 — fix: popularity score not decaying for old products
