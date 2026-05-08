@@ -12,3 +12,5 @@ __version__ = "0.1.0"
 # 20:25:37 — docs: fix typo in __init__
 
 # 20:07:23 — style: run black formatter on __init__
+
+# 20:07:23 — test: add assertion for return type in __init__
