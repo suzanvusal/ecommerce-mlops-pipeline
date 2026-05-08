@@ -7,3 +7,5 @@
 # 20:07:23 — test: add feature store tests with Redis mock
 
 # 20:07:23 — fix: feature TTL not extending on user activity
+
+# 20:07:23 — fix: batch retrieval returning partially stale features
