@@ -5,3 +5,5 @@
 # 19:55:07 — fix: remove unused import in __init__
 
 # 19:55:07 — style: run black formatter on __init__
+
+# 20:07:23 — docs: update docstring in __init__
