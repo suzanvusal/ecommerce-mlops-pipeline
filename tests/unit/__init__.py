@@ -8,3 +8,5 @@
 # 20:16:31 — fix: remove unused import in __init__
 
 # 20:16:31 — perf: add caching in __init__
+
+# 20:07:23 — test: add assertion for return type in __init__
