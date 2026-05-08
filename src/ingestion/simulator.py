@@ -126,3 +126,5 @@ class EcommerceSimulator:
 # 20:17:58 — chore: day 4 maintenance sweep
 
 # 20:17:58 — docs: fix typo in simulator
+
+# 20:07:23 — fix: add missing type hint in simulator
