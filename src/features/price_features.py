@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:16:30 — test: add product feature tests with synthetic catalog
 
 # 20:16:31 — fix: handle None edge case in price_features
+
+# 20:07:23 — perf: add caching in price_features
