@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:07:23 — feat: add batch feature retrieval for training
+
+# 20:07:23 — feat: add stale feature detection
