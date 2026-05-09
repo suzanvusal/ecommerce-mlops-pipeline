@@ -3,3 +3,5 @@
 # Generated: 2026-05-09T19:58:01.868094+00:00
 
 # 19:58:01 — fix: similarity search returning duplicate results
+
+# 19:58:01 — perf: use FAISS for faster ANN search
