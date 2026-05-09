@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 19:58:01 — feat: implement embedding drift detector
+
+# 19:58:01 — fix: remove unused import in embedding_store
