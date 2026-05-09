@@ -7,3 +7,5 @@
 # 19:55:07 — style: run black formatter on __init__
 
 # 20:07:23 — docs: update docstring in __init__
+
+# 19:58:02 — docs: update docstring in __init__
