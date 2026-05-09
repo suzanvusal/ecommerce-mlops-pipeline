@@ -13,3 +13,5 @@
 # 20:25:37 — fix: correct off-by-one in __init__
 
 # 20:16:31 — docs: fix typo in __init__
+
+# 19:58:01 — fix: handle None edge case in __init__
