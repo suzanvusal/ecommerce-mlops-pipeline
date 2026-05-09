@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:09:39 — fix: handle anonymous session merging on login
 
 # 20:09:39 — refactor: move consumer config to Pydantic dataclass
+
+# 19:58:02 — chore: add logging to session_tracker
