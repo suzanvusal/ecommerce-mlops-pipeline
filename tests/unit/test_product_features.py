@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:16:31 — docs: update docstring in test_product_features
+
+# 19:58:01 — test: add assertion for return type in test_product_features
