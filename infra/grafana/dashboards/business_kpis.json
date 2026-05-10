@@ -3,3 +3,5 @@
   "file": "infra/grafana/dashboards/business_kpis.json",
   "title": "Monitoring dashboards & Prometheus metrics"
 }
+
+# 19:59:20 — feat: implement Grafana business KPI dashboard
