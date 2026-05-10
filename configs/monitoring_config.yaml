@@ -1,3 +1,5 @@
 # configs/monitoring_config.yaml
 # Day 10: Monitoring dashboards & Prometheus metrics
 # Generated: 2026-05-10T19:59:20.895116+00:00
+
+# 19:59:20 — feat: add Prometheus alert for conversion rate drop
