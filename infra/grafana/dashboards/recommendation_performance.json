@@ -5,3 +5,5 @@
 }
 
 # 19:59:20 — infra: configure Alertmanager for business team routing
+
+# 19:59:20 — refactor: centralise metric registration
