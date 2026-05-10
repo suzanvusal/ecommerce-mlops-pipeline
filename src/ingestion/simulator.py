@@ -130,3 +130,5 @@ class EcommerceSimulator:
 # 20:07:23 — fix: add missing type hint in simulator
 
 # 19:58:02 — chore: add logging to simulator
+
+# 19:59:21 — style: reorder imports in simulator
