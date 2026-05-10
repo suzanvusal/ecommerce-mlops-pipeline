@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:07:23 — feat: add stale feature detection
 
 # 20:07:23 — refactor: abstract feature store behind interface
+
+# 19:59:20 — fix: add missing type hint in test_feature_store
