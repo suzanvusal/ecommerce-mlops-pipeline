@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:09:39 — test: add assertion for return type in producer
 
 # 20:16:31 — docs: fix typo in producer
+
+# 19:59:21 — docs: update docstring in producer
