@@ -10,3 +10,5 @@
 # 20:16:31 — perf: add caching in __init__
 
 # 20:07:23 — test: add assertion for return type in __init__
+
+# 19:59:21 — refactor: extract constant in __init__
