@@ -1,0 +1,5 @@
+{
+  "day": 10,
+  "file": "infra/grafana/dashboards/recommendation_performance.json",
+  "title": "Monitoring dashboards & Prometheus metrics"
+}
