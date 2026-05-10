@@ -3,3 +3,5 @@
   "file": "infra/grafana/dashboards/recommendation_performance.json",
   "title": "Monitoring dashboards & Prometheus metrics"
 }
+
+# 19:59:20 — infra: configure Alertmanager for business team routing
