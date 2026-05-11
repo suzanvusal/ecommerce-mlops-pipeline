@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 20:47:42 — refactor: separate matrix building from feature extraction
