@@ -9,3 +9,5 @@
 # 20:07:23 — docs: update docstring in __init__
 
 # 19:58:02 — docs: update docstring in __init__
+
+# 20:47:42 — refactor: extract constant in __init__
