@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:47:42 — feat: implement user/item ID mapping and encoding
+
+# 20:47:42 — chore: add logging to interaction_matrix
