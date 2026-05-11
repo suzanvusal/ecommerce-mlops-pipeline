@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 19:59:20 — fix: add missing type hint in test_feature_store
 
 # 19:59:21 — docs: fix typo in test_feature_store
+
+# 20:47:42 — fix: remove unused import in test_feature_store
