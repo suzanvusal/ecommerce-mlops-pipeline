@@ -7,3 +7,5 @@
 # 19:58:01 — style: reorder imports in __init__
 
 # 20:47:42 — chore: add logging to __init__
+
+# 20:42:39 — test: add assertion for return type in __init__
