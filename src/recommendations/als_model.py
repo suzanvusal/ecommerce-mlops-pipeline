@@ -84,3 +84,5 @@ class ALSRecommender:
         ids, scores = self._model.similar_items(item_idx, N=n + 1)
         return [(self._reverse_item_map.get(int(i), f"PROD-{i}"), float(s))
                 for i, s in zip(ids, scores) if int(i) != item_idx][:n]
+
+# 20:42:39 — feat: add cold start handler for new users
