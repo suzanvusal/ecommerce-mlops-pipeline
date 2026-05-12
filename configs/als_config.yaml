@@ -5,3 +5,5 @@
 # 20:42:39 — test: add ALS tests with synthetic interaction matrix
 
 # 20:42:39 — refactor: extract evaluation metrics to shared module
+
+# 20:42:39 — fix: cold start returning popular items only
