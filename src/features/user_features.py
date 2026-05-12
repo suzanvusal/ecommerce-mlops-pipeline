@@ -138,3 +138,5 @@ class UserFeatureEngine:
 # 20:25:37 — fix: handle None edge case in user_features
 
 # 19:59:21 — style: run black formatter on user_features
+
+# 20:42:39 — test: add assertion for return type in user_features
