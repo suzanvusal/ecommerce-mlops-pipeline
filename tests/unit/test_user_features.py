@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:25:37 — fix: LTV estimator crashing on users with single purchase
 
 # 20:07:23 — chore: day 8 maintenance sweep
+
+# 20:42:39 — chore: day 12 maintenance sweep
