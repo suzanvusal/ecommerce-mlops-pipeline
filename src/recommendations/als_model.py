@@ -86,3 +86,5 @@ class ALSRecommender:
                 for i, s in zip(ids, scores) if int(i) != item_idx][:n]
 
 # 20:42:39 — feat: add cold start handler for new users
+
+# 20:42:39 — perf: enable GPU training for ALS
