@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 20:42:39 — fix: ALS not converging on sparse interaction matrix
