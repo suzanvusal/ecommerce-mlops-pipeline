@@ -16,3 +16,5 @@ __version__ = "0.1.0"
 # 20:07:23 — test: add assertion for return type in __init__
 
 # 20:42:39 — fix: remove unused import in __init__
+
+# 20:42:39 — docs: add module docstring to __init__
