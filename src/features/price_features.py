@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:07:23 — perf: add caching in price_features
 
 # 20:07:23 — fix: add missing type hint in price_features
+
+# 20:42:39 — docs: fix typo in price_features
