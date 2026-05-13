@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:47:42 — refactor: separate matrix building from feature extraction
 
 # 20:42:39 — fix: remove unused import in data_pipeline
+
+# 20:47:39 — fix: correct off-by-one in data_pipeline
