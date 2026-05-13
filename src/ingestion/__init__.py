@@ -9,3 +9,5 @@
 # 20:47:42 — chore: add logging to __init__
 
 # 20:42:39 — test: add assertion for return type in __init__
+
+# 20:47:40 — fix: handle None edge case in __init__
