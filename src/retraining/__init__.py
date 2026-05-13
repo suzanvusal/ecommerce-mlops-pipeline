@@ -9,3 +9,5 @@
 # 20:07:23 — fix: correct off-by-one in __init__
 
 # 19:59:20 — perf: add caching in __init__
+
+# 20:47:40 — docs: add module docstring to __init__
