@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:16:30 — fix: price elasticity failing on products with fixed prices
 
 # 20:47:39 — style: reorder imports in trend_detector
+
+# 20:47:39 — chore: add logging to trend_detector
