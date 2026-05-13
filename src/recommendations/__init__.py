@@ -5,3 +5,5 @@
 # 20:17:59 — refactor: extract constant in __init__
 
 # 20:42:39 — docs: update docstring in __init__
+
+# 20:47:40 — fix: remove unused import in __init__
