@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:27:52 — feat: add price range filter for personalised results
 
 # 20:27:52 — test: add ensemble tests verifying coverage and diversity
+
+# 20:27:52 — refactor: decouple ranking from retrieval
