@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 19:59:21 — docs: update docstring in producer
 
 # 20:47:42 — docs: fix typo in producer
+
+# 20:27:52 — chore: add logging to producer
