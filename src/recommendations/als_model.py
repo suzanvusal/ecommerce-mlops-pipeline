@@ -88,3 +88,5 @@ class ALSRecommender:
 # 20:42:39 — feat: add cold start handler for new users
 
 # 20:42:39 — perf: enable GPU training for ALS
+
+# 20:27:52 — fix: add missing type hint in als_model
