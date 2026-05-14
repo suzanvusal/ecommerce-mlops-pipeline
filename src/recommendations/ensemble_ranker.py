@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:27:52 — feat: implement ensemble weight optimisation on val set
+
+# 20:27:52 — fix: ensemble weights not normalising to 1.0
