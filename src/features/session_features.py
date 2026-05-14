@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:25:36 — feat: add discount sensitivity score per user
 
 # 20:47:42 — chore: add logging to session_features
+
+# 20:27:52 — fix: add missing type hint in session_features
