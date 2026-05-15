@@ -105,3 +105,5 @@ async def metrics():
     return Response(generate_latest(), media_type=CONTENT_TYPE_LATEST)
 
 # 20:18:09 — feat: implement request ID tracing
+
+# 20:18:09 — perf: preload FAISS index on startup
