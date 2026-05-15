@@ -107,3 +107,5 @@ async def metrics():
 # 20:18:09 — feat: implement request ID tracing
 
 # 20:18:09 — perf: preload FAISS index on startup
+
+# 20:18:09 — test: add assertion for return type in api
