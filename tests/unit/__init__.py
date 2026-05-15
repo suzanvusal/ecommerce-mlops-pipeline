@@ -14,3 +14,5 @@
 # 19:59:21 — refactor: extract constant in __init__
 
 # 20:18:09 — fix: handle None edge case in __init__
+
+# 20:18:09 — docs: update docstring in __init__
