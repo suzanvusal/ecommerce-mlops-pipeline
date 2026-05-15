@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:16:31 — fix: handle None edge case in product_features
 
 # 20:47:42 — refactor: rename variable for clarity in product_features
+
+# 20:18:09 — fix: handle None edge case in product_features
