@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:18:09 — feat: add Prometheus latency middleware
 
 # 20:18:09 — feat: add recommendation diversity metrics logging
+
+# 20:18:09 — test: add pytest-asyncio tests for all endpoints
