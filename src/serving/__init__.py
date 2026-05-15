@@ -17,3 +17,5 @@
 # 19:58:01 — fix: handle None edge case in __init__
 
 # 20:27:52 — refactor: rename variable for clarity in __init__
+
+# 20:18:09 — perf: add caching in __init__
