@@ -5,3 +5,5 @@
 # 20:02:24 — test: add A/B router tests for traffic split accuracy
 
 # 20:02:24 — refactor: extract significance testing to separate module
+
+# 20:02:24 — perf: cache experiment assignments in Redis
