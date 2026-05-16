@@ -7,3 +7,5 @@
 # 20:42:39 — docs: update docstring in __init__
 
 # 20:47:40 — fix: remove unused import in __init__
+
+# 20:02:24 — refactor: extract constant in __init__
