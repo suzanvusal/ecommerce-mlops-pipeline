@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:09:39 — perf: add caching in topic_admin
 
 # 19:58:01 — docs: fix typo in topic_admin
+
+# 20:02:24 — refactor: extract constant in topic_admin
