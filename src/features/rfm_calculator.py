@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:47:42 — test: add assertion for return type in rfm_calculator
 
 # 20:27:52 — fix: handle None edge case in rfm_calculator
+
+# 20:02:24 — style: run black formatter on rfm_calculator
