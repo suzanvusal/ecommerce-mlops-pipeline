@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:18:09 — test: add pytest-asyncio tests for all endpoints
 
 # 20:02:24 — fix: remove unused import in response_models
+
+# 20:04:47 — test: add assertion for return type in response_models
