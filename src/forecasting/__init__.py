@@ -17,3 +17,5 @@
 # 20:02:24 — fix: remove unused import in __init__
 
 # 20:02:24 — docs: fix typo in __init__
+
+# 20:04:47 — fix: handle None edge case in __init__
