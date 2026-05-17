@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:27:52 — fix: diversity reranker too slow for real-time use
 
 # 20:27:52 — perf: parallelise candidate scoring
+
+# 20:04:47 — docs: update docstring in ensemble_ranker
