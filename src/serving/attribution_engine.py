@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:04:47 — test: add impression logger completeness tests
 
 # 20:04:47 — fix: attribution window too short missing delayed purchases
+
+# 20:04:47 — fix: position bias not corrected in CTR computation
