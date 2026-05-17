@@ -8,3 +8,5 @@
 # 20:25:37 — fix: remove unused import in __init__
 
 # 20:47:40 — style: run black formatter on __init__
+
+# 20:04:47 — fix: add missing type hint in __init__
