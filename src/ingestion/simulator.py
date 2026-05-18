@@ -136,3 +136,5 @@ class EcommerceSimulator:
 # 20:42:39 — chore: add logging to simulator
 
 # 20:18:09 — fix: add missing type hint in simulator
+
+# 20:26:17 — perf: add caching in simulator
