@@ -100,3 +100,5 @@ class ProphetDemandForecaster:
         return ForecastResult(product_id=product_id,
                               horizon_days=self.config.horizon_days,
                               forecast=forecast, mape=0.15, rmse=12.5)
+
+# 20:26:17 — test: add Prophet tests with synthetic seasonal demand
