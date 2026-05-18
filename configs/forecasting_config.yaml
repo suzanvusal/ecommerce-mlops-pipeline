@@ -1,3 +1,5 @@
 # configs/forecasting_config.yaml
 # Day 18: Demand forecasting with Prophet
 # Generated: 2026-05-18T20:26:17.277022+00:00
+
+# 20:26:17 — refactor: separate seasonality detection from forecasting
