@@ -3,3 +3,5 @@
 # Generated: 2026-05-18T20:26:17.277022+00:00
 
 # 20:26:17 — refactor: separate seasonality detection from forecasting
+
+# 20:26:17 — fix: holiday effects too strong for niche products
