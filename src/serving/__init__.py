@@ -21,3 +21,5 @@
 # 20:18:09 — perf: add caching in __init__
 
 # 20:04:47 — fix: correct off-by-one in __init__
+
+# 20:26:17 — test: add assertion for return type in __init__
