@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 20:26:17 — fix: Prophet crashing on products with fewer than 30 data po
