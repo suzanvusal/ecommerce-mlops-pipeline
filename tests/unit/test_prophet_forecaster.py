@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:26:17 — feat: implement forecast accuracy evaluation (MAPE, RMSE)
+
+# 20:26:17 — feat: add forecast store backed by PostgreSQL
