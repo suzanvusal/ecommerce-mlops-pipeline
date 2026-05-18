@@ -102,3 +102,5 @@ class ProphetDemandForecaster:
                               forecast=forecast, mape=0.15, rmse=12.5)
 
 # 20:26:17 — test: add Prophet tests with synthetic seasonal demand
+
+# 20:26:17 — refactor: extract constant in prophet_forecaster
