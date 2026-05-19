@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:04:47 — docs: update docstring in attribution_engine
 
 # 20:26:17 — docs: fix typo in attribution_engine
+
+# 20:46:44 — docs: add module docstring to attribution_engine
