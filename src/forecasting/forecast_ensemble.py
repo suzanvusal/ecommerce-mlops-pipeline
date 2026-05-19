@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:46:44 — feat: add cross-product demand spillover features
+
+# 20:46:44 — fix: lag features leaking future demand
