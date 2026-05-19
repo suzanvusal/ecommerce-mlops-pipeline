@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:26:17 — fix: remove unused import in cache_manager
 
 # 20:26:17 — docs: fix typo in cache_manager
+
+# 20:46:44 — fix: handle None edge case in cache_manager
