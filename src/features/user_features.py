@@ -140,3 +140,5 @@ class UserFeatureEngine:
 # 19:59:21 — style: run black formatter on user_features
 
 # 20:42:39 — test: add assertion for return type in user_features
+
+# 20:46:44 — fix: remove unused import in user_features
