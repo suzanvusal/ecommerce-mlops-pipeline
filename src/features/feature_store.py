@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:07:23 — feat: implement feature versioning for model compatibility
 
 # 19:59:21 — refactor: extract constant in feature_store
+
+# 20:46:44 — docs: fix typo in feature_store
