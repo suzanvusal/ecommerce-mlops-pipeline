@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:04:46 — feat: add long-term impact tracker (7-day, 30-day LTV)
 
 # 20:04:47 — perf: batch impression log writes every 200ms
+
+# 20:46:44 — perf: add caching in impression_logger
