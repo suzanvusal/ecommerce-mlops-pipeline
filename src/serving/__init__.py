@@ -23,3 +23,5 @@
 # 20:04:47 — fix: correct off-by-one in __init__
 
 # 20:26:17 — test: add assertion for return type in __init__
+
+# 20:46:44 — docs: add module docstring to __init__
