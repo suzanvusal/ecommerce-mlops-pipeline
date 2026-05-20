@@ -118,3 +118,5 @@ class DynamicPricingEngine:
                 f"Min price (margin): ${min_price:.2f}."
             ),
         )
+
+# 20:59:51 — refactor: separate pricing rules from optimisation
