@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:59:51 — test: add pricing engine tests for margin constraints
+
+# 20:59:51 — fix: price elasticity negative for Giffen goods
