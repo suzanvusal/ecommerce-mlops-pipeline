@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:59:51 — feat: add inventory-based price surge for low-stock items
 
 # 20:59:51 — feat: implement price rounding rules per category
+
+# 20:59:51 — fix: competitor tracker failing on rate limits
