@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 19:58:01 — docs: fix typo in product_embeddings
 
 # 20:42:39 — docs: fix typo in product_embeddings
+
+# 20:59:51 — fix: correct off-by-one in product_embeddings
