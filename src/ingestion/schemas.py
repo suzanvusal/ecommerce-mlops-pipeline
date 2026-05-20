@@ -109,3 +109,5 @@ class SearchEvent(BaseModel):
 # 20:47:39 — style: reorder imports in schemas
 
 # 20:59:51 — refactor: rename variable for clarity in schemas
+
+# 20:59:51 — chore: add logging to schemas
