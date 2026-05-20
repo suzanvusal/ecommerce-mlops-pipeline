@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:02:24 — feat: add experiment audit log
 
 # 20:02:24 — fix: user assignment not sticky across sessions
+
+# 20:59:51 — perf: add caching in significance_tester
