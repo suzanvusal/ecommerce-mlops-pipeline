@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:52:12 — fix: supplier API timeout causing order delays
+
+# 20:52:12 — perf: cache demand forecasts for inventory computation
