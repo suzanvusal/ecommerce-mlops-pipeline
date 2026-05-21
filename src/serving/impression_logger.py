@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:04:47 — perf: batch impression log writes every 200ms
 
 # 20:46:44 — perf: add caching in impression_logger
+
+# 20:52:12 — fix: correct off-by-one in impression_logger
