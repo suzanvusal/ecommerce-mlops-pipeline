@@ -1,3 +1,5 @@
 # configs/inventory_config.yaml
 # Day 21: Inventory alert & auto-reorder system
 # Generated: 2026-05-21T20:52:12.821588+00:00
+
+# 20:52:12 — feat: add stockout prediction (days until zero stock)
