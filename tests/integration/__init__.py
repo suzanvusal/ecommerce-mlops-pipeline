@@ -22,3 +22,5 @@
 # 20:18:09 — fix: remove unused import in __init__
 
 # 20:02:24 — fix: remove unused import in __init__
+
+# 20:52:12 — perf: add caching in __init__
