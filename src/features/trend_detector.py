@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:47:39 — style: reorder imports in trend_detector
 
 # 20:47:39 — chore: add logging to trend_detector
+
+# 20:52:12 — fix: handle None edge case in trend_detector
