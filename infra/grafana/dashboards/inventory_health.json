@@ -1,0 +1,5 @@
+{
+  "day": 22,
+  "file": "infra/grafana/dashboards/inventory_health.json",
+  "title": "Grafana business dashboards"
+}
