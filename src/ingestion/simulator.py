@@ -138,3 +138,5 @@ class EcommerceSimulator:
 # 20:18:09 — fix: add missing type hint in simulator
 
 # 20:26:17 — perf: add caching in simulator
+
+# 20:43:36 — style: run black formatter on simulator
