@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:26:17 — feat: add forecast store backed by PostgreSQL
 
 # 20:26:17 — perf: parallelise forecasting across product categories
+
+# 20:43:35 — perf: add caching in test_prophet_forecaster
