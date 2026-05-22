@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:59:51 — fix: handle None edge case in lag_feature_builder
 
 # 20:43:36 — test: add assertion for return type in lag_feature_builder
+
+# 20:43:36 — test: add assertion for return type in lag_feature_builder
