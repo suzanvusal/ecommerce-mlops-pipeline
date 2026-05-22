@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:46:44 — fix: lag features leaking future demand
 
 # 20:46:44 — style: reorder imports in forecast_ensemble
+
+# 20:43:36 — chore: add logging to forecast_ensemble
