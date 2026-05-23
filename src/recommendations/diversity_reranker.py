@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:27:52 — refactor: decouple ranking from retrieval
 
 # 20:43:36 — chore: day 22 maintenance sweep
+
+# 20:07:21 — test: add assertion for return type in diversity_reranker
