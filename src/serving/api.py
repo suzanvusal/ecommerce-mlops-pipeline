@@ -109,3 +109,5 @@ async def metrics():
 # 20:18:09 — perf: preload FAISS index on startup
 
 # 20:18:09 — test: add assertion for return type in api
+
+# 20:07:21 — style: reorder imports in api
