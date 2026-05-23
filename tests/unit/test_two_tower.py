@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:47:39 — refactor: separate model definition from training
 
 # 20:27:52 — fix: handle None edge case in test_two_tower
+
+# 20:07:21 — docs: fix typo in test_two_tower
