@@ -3,3 +3,5 @@
 # Generated: 2026-05-24T20:08:04.420667+00:00
 
 # 20:08:04 — feat: add ensemble weight optimisation task
+
+# 20:08:04 — chore: add airflow db upgrade to startup
