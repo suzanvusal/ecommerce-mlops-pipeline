@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 20:27:52 — chore: add logging to producer
 
 # 20:52:12 — docs: add module docstring to producer
+
+# 20:08:04 — fix: add missing type hint in producer
