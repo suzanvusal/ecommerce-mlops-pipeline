@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:08:04 — feat: add demand forecast retraining task
+
+# 20:08:04 — fix: Airflow FERNET_KEY not set on startup
