@@ -21,3 +21,5 @@
 # 20:04:47 — fix: handle None edge case in __init__
 
 # 20:46:44 — chore: day 19 maintenance sweep
+
+# 20:08:04 — test: add assertion for return type in __init__
