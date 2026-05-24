@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:08:04 — feat: add Two-Tower retraining task
+
+# 20:08:04 — ci: add Airflow DAG import validation
