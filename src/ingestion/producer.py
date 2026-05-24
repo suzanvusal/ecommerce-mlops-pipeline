@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 20:08:04 — fix: add missing type hint in producer
 
 # 20:08:04 — style: run black formatter on producer
+
+# 20:08:04 — style: reorder imports in producer
