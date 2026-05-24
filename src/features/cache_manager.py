@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:46:44 — fix: handle None edge case in cache_manager
 
 # 20:43:36 — docs: update docstring in cache_manager
+
+# 20:08:04 — docs: add module docstring to cache_manager
