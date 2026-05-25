@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:46:44 — docs: add module docstring to attribution_engine
 
 # 20:46:44 — fix: handle None edge case in attribution_engine
+
+# 20:23:32 — test: add assertion for return type in attribution_engine
