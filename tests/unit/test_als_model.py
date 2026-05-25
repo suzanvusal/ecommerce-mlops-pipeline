@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:42:39 — fix: ALS not converging on sparse interaction matrix
 
 # 20:59:51 — fix: remove unused import in test_als_model
+
+# 20:23:32 — refactor: extract constant in test_als_model
