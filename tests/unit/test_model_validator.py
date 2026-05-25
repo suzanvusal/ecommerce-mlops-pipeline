@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:23:32 — feat: add automated MLflow stage promotion
+
+# 20:23:32 — fix: NDCG computation using wrong ranking formula
