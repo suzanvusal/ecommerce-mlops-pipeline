@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:42:39 — docs: fix typo in product_embeddings
 
 # 20:59:51 — fix: correct off-by-one in product_embeddings
+
+# 20:23:32 — fix: add missing type hint in product_embeddings
