@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:26:17 — feat: add forecast confidence interval generation
+
+# 20:55:43 — docs: fix typo in seasonality_detector
