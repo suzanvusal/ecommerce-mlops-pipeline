@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:55:43 — perf: optimise FAISS search with GPU index
+
+# 20:55:43 — docs: add performance benchmark results
