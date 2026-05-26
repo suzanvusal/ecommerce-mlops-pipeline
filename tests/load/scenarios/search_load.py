@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:55:43 — perf: tune uvicorn worker count
+
+# 20:55:43 — fix: Kafka consumer lag under burst event load
