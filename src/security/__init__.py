@@ -11,3 +11,5 @@
 # 20:18:09 — style: run black formatter on __init__
 
 # 20:59:51 — style: reorder imports in __init__
+
+# 20:55:43 — fix: correct off-by-one in __init__
