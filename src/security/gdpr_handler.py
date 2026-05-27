@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 21:02:13 — feat: add API rate limiting per client
+
+# 21:02:13 — docs: add GDPR compliance documentation
