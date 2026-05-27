@@ -1,15 +1,9 @@
-"""Security: PII handling, GDPR compliance, audit logging."""
+"""
+src/security/__init__.py
+Day 27: Security hardening & PII compliance
+Focus: User data encryption, GDPR compliance, audit logging, access control
+"""
+from __future__ import annotations
+import logging
 
-# 01:52:46 — chore: add logging to __init__
-
-# 20:09:39 — style: reorder imports in __init__
-
-# 20:16:31 — style: reorder imports in __init__
-
-# 20:47:42 — fix: remove unused import in __init__
-
-# 20:18:09 — style: run black formatter on __init__
-
-# 20:59:51 — style: reorder imports in __init__
-
-# 20:55:43 — fix: correct off-by-one in __init__
+logger = logging.getLogger(__name__)
