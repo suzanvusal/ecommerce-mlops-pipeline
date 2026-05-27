@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:07:21 — style: reorder imports in test_serving_api
 
 # 20:55:43 — docs: add module docstring to test_serving_api
+
+# 21:02:14 — refactor: extract constant in test_serving_api
