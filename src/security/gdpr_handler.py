@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 21:02:13 — docs: add GDPR compliance documentation
 
 # 21:02:14 — refactor: centralise PII tokenisation logic
+
+# 21:02:14 — docs: add security architecture document
