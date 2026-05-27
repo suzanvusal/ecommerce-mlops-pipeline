@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 19:59:21 — refactor: extract constant in feature_store
 
 # 20:46:44 — docs: fix typo in feature_store
+
+# 21:02:14 — test: add assertion for return type in feature_store
