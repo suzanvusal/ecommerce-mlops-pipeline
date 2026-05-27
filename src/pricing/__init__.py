@@ -11,3 +11,5 @@
 # 20:18:09 — style: reorder imports in __init__
 
 # 20:26:17 — fix: add missing type hint in __init__
+
+# 21:02:14 — fix: handle None edge case in __init__
