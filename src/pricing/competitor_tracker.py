@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:59:51 — feat: implement price rounding rules per category
 
 # 20:59:51 — fix: competitor tracker failing on rate limits
+
+# 21:02:14 — docs: fix typo in competitor_tracker
