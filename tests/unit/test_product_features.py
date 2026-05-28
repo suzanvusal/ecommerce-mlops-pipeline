@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 21:09:19 — ci: enforce 80% coverage threshold
+
+# 21:09:19 — fix: 11 failing tests from schema field rename
