@@ -1,21 +1,9 @@
 """
 tests/unit/test_user_features.py
-Day 6: User behaviour feature engineering
-Focus: Session features, click-through rates, purchase propensity, recency
+Day 28: Comprehensive test suite
+Focus: Unit test coverage > 80%, property tests, mutation testing
 """
 from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
-
-# 20:25:36 — feat: implement device type preference features
-
-# 20:25:37 — fix: LTV estimator crashing on users with single purchase
-
-# 20:07:23 — chore: day 8 maintenance sweep
-
-# 20:42:39 — chore: day 12 maintenance sweep
-
-# 20:02:24 — style: run black formatter on test_user_features
-
-# 20:02:24 — style: run black formatter on test_user_features
