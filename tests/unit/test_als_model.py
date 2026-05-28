@@ -1,15 +1,9 @@
 """
 tests/unit/test_als_model.py
-Day 12: Collaborative filtering with ALS
-Focus: Alternating Least Squares, implicit feedback, top-K recommendations
+Day 28: Comprehensive test suite
+Focus: Unit test coverage > 80%, property tests, mutation testing
 """
 from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
-
-# 20:42:39 — fix: ALS not converging on sparse interaction matrix
-
-# 20:59:51 — fix: remove unused import in test_als_model
-
-# 20:23:32 — refactor: extract constant in test_als_model
