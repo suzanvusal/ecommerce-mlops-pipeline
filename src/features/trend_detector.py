@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:52:12 — fix: handle None edge case in trend_detector
 
 # 20:08:04 — style: reorder imports in trend_detector
+
+# 21:10:02 — chore: add logging to trend_detector
