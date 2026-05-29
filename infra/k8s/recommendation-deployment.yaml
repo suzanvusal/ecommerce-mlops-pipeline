@@ -3,3 +3,5 @@
 # Generated: 2026-05-29T21:10:01.893176+00:00
 
 # 21:10:01 — infra: add Ingress with TLS termination
+
+# 21:10:01 — fix: HPA min replicas too low for peak traffic
