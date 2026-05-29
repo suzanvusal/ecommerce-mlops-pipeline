@@ -14,3 +14,5 @@
 # 20:46:44 — refactor: rename variable for clarity in __init__
 
 # 20:43:36 — refactor: rename variable for clarity in __init__
+
+# 21:10:02 — docs: fix typo in __init__
