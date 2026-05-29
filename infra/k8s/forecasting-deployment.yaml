@@ -5,3 +5,5 @@
 # 21:10:01 — infra: add ConfigMap for environment configuration
 
 # 21:10:01 — infra: add PVC for MLflow artifacts
+
+# 21:10:01 — docs: add Kubernetes deployment guide
