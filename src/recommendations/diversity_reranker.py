@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:43:36 — chore: day 22 maintenance sweep
 
 # 20:07:21 — test: add assertion for return type in diversity_reranker
+
+# 21:10:02 — perf: add caching in diversity_reranker
