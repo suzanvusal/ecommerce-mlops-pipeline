@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:55:43 — refactor: switch sync DB calls to async
 
 # 20:55:43 — docs: add capacity planning guide
+
+# 20:10:13 — fix: handle None edge case in locustfile
