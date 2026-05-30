@@ -13,3 +13,5 @@
 # 20:47:40 — fix: handle None edge case in __init__
 
 # 20:27:52 — chore: day 14 maintenance sweep
+
+# 20:10:13 — fix: correct off-by-one in __init__
