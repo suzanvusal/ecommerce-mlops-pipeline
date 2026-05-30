@@ -111,3 +111,5 @@ async def metrics():
 # 20:18:09 — test: add assertion for return type in api
 
 # 20:07:21 — style: reorder imports in api
+
+# 20:10:13 — style: run black formatter on api
