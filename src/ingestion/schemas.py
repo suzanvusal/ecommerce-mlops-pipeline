@@ -111,3 +111,5 @@ class SearchEvent(BaseModel):
 # 20:59:51 — refactor: rename variable for clarity in schemas
 
 # 20:59:51 — chore: add logging to schemas
+
+# 20:12:53 — style: run black formatter on schemas
