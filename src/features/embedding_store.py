@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:47:42 — docs: fix typo in embedding_store
 
 # 20:10:13 — style: reorder imports in embedding_store
+
+# 20:12:53 — chore: add logging to embedding_store
