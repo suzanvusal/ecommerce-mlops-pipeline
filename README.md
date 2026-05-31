@@ -103,5 +103,3 @@ src/
 
 ## License
 MIT
-
-# 20:10:13 — ci: add end-to-end smoke test to release pipeline
