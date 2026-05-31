@@ -15,3 +15,5 @@
 # 20:27:52 — chore: day 14 maintenance sweep
 
 # 20:10:13 — fix: correct off-by-one in __init__
+
+# 20:12:53 — refactor: extract constant in __init__
