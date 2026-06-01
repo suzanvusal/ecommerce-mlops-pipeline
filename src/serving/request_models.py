@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:07:21 — docs: update docstring in request_models
 
 # 20:12:53 — fix: remove unused import in request_models
+
+# 22:12:08 — docs: add module docstring to request_models
