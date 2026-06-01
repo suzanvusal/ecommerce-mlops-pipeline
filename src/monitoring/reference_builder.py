@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:07:21 — test: add drift detection test with synthetic behaviour shif
 
 # 21:09:19 — chore: add logging to reference_builder
+
+# 22:12:08 — fix: correct off-by-one in reference_builder
