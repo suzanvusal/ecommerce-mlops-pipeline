@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 21:09:19 — fix: flaky ALS test due to random seed
 
 # 21:09:19 — docs: document test strategy
+
+# 22:12:08 — perf: add caching in test_product_features
