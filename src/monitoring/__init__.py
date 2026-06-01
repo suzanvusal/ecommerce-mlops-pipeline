@@ -17,3 +17,5 @@
 # 20:26:17 — docs: update docstring in __init__
 
 # 20:08:04 — test: add assertion for return type in __init__
+
+# 22:12:08 — refactor: extract constant in __init__
