@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:02:24 — perf: add caching in similarity_search
 
 # 20:43:35 — refactor: extract constant in similarity_search
+
+# 21:50:18 — chore: add logging to similarity_search
