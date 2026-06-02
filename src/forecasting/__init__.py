@@ -27,3 +27,5 @@
 # 21:09:19 — test: add assertion for return type in __init__
 
 # 20:10:13 — style: reorder imports in __init__
+
+# 21:50:18 — style: run black formatter on __init__
