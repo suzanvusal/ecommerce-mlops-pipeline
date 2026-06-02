@@ -16,3 +16,5 @@
 # 20:43:36 — refactor: rename variable for clarity in __init__
 
 # 21:10:02 — docs: fix typo in __init__
+
+# 21:50:18 — docs: update docstring in __init__
