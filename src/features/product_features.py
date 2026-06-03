@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 21:10:02 — refactor: rename variable for clarity in product_features
 
 # 20:12:53 — fix: add missing type hint in product_features
+
+# 21:51:45 — style: reorder imports in product_features
