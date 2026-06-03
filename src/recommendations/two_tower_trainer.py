@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:23:32 — chore: day 25 maintenance sweep
 
 # 21:50:18 — style: reorder imports in two_tower_trainer
+
+# 21:51:45 — docs: add module docstring to two_tower_trainer
