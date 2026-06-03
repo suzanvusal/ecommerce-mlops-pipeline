@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:43:36 — test: add assertion for return type in lag_feature_builder
 
 # 20:10:13 — fix: correct off-by-one in lag_feature_builder
+
+# 21:51:45 — docs: fix typo in lag_feature_builder
