@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:55:43 — fix: Kafka consumer lag under burst event load
 
 # 20:10:13 — style: run black formatter on search_load
+
+# 21:51:45 — test: add assertion for return type in search_load
