@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:42:39 — fix: remove unused import in data_pipeline
 
 # 20:47:39 — fix: correct off-by-one in data_pipeline
+
+# 20:58:38 — chore: add logging to data_pipeline
