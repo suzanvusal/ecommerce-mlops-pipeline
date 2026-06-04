@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:59:51 — fix: add missing type hint in test_product_embeddings
 
 # 21:09:19 — refactor: rename variable for clarity in test_product_embedd
+
+# 20:58:38 — test: add assertion for return type in test_product_embeddin
