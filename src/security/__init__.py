@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 21:09:19 — docs: add module docstring to __init__
+
+# 20:58:38 — perf: add caching in __init__
