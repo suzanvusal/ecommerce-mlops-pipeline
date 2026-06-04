@@ -28,3 +28,5 @@ __version__ = "0.1.0"
 # 21:10:02 — style: reorder imports in __init__
 
 # 20:12:53 — style: reorder imports in __init__
+
+# 20:58:38 — docs: fix typo in __init__
