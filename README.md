@@ -103,7 +103,3 @@ src/
 
 ## License
 MIT
-
-# 21:51:45 — chore: final dependency audit
-
-# 21:51:45 — chore: archive development notebooks
