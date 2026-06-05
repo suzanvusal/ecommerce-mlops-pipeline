@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:47:42 — fix: remove unused import in test_feature_store
 
 # 20:55:43 — docs: fix typo in test_feature_store
+
+# 20:47:53 — fix: handle None edge case in test_feature_store
