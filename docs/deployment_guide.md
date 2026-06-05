@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 20:47:53 — chore: tag v1.0.0 release
 
 # 20:47:53 — chore: final dependency audit
+
+# 20:47:53 — docs: fix broken links in README
