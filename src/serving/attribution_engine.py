@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 20:55:43 — docs: fix typo in attribution_engine
 
 # 22:12:08 — chore: add logging to attribution_engine
+
+# 20:47:53 — fix: correct off-by-one in attribution_engine
