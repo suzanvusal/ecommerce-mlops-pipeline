@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 21:02:14 — refactor: extract constant in test_serving_api
 
 # 20:12:53 — refactor: rename variable for clarity in test_serving_api
+
+# 20:47:53 — docs: update docstring in test_serving_api
