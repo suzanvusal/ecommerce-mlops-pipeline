@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 21:09:19 — fix: add missing type hint in canary_manager
 
 # 20:12:53 — docs: add module docstring to canary_manager
+
+# 20:47:53 — docs: update docstring in canary_manager
