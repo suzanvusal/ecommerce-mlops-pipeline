@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 22:12:08 — docs: fix typo in response_models
 
 # 20:47:53 — fix: remove unused import in response_models
+
+# 20:47:53 — fix: handle None edge case in response_models
