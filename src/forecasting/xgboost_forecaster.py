@@ -7,3 +7,5 @@ from __future__ import annotations
 import logging
 
 logger = logging.getLogger(__name__)
+
+# 20:10:47 — style: run black formatter on xgboost_forecaster
