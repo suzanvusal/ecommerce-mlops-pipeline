@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 21:51:45 — docs: fix typo in lag_feature_builder
 
 # 20:10:47 — fix: handle None edge case in lag_feature_builder
+
+# 20:10:47 — fix: add missing type hint in lag_feature_builder
