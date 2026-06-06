@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:07:21 — perf: run drift reports in parallel per feature group
 
 # 20:23:32 — docs: add module docstring to test_drift_detector
+
+# 20:10:47 — docs: update docstring in test_drift_detector
