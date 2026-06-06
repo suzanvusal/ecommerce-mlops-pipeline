@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:46:44 — style: reorder imports in forecast_ensemble
 
 # 20:43:36 — chore: add logging to forecast_ensemble
+
+# 20:10:47 — docs: fix typo in forecast_ensemble
