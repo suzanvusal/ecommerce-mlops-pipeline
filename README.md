@@ -103,5 +103,3 @@ src/
 
 ## License
 MIT
-
-# 20:47:53 — fix: env variable names inconsistent
