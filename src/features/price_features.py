@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:27:52 — fix: handle None edge case in price_features
 
 # 21:02:14 — chore: add logging to price_features
+
+# 20:10:47 — style: run black formatter on price_features
