@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:47:53 — docs: fix typo in audit_logger
 
 # 20:14:10 — style: run black formatter on audit_logger
+
+# 20:14:10 — test: add assertion for return type in audit_logger
