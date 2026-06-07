@@ -17,3 +17,5 @@
 # 21:09:19 — docs: add module docstring to __init__
 
 # 20:10:47 — fix: handle None edge case in __init__
+
+# 20:14:10 — docs: fix typo in __init__
