@@ -41,3 +41,5 @@ logger = logging.getLogger(__name__)
 # 20:12:53 — refactor: rename variable for clarity in producer
 
 # 20:58:38 — style: run black formatter on producer
+
+# 20:14:10 — perf: add caching in producer
