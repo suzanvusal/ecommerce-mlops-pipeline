@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:07:21 — fix: add missing type hint in test_inventory_manager
 
 # 20:07:21 — refactor: extract constant in test_inventory_manager
+
+# 20:14:10 — style: reorder imports in test_inventory_manager
