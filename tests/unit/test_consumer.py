@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:08:04 — refactor: rename variable for clarity in test_consumer
 
 # 22:12:08 — fix: handle None edge case in test_consumer
+
+# 20:14:10 — test: add assertion for return type in test_consumer
