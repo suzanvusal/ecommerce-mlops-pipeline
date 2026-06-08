@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:23:32 — docs: fix typo in session_features
 
 # 21:02:14 — chore: add logging to session_features
+
+# 21:11:24 — docs: add module docstring to session_features
