@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 22:12:08 — chore: add logging to attribution_engine
 
 # 20:47:53 — fix: correct off-by-one in attribution_engine
+
+# 21:11:24 — test: add assertion for return type in attribution_engine
