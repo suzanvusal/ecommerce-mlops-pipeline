@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 21:11:24 — docs: add business impact section to README
 
 # 21:11:24 — docs: fix broken links in README
+
+# 21:11:24 — refactor: remove all TODO comments
