@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 21:10:02 — perf: add caching in diversity_reranker
 
 # 20:58:38 — fix: remove unused import in diversity_reranker
+
+# 21:11:24 — test: add assertion for return type in diversity_reranker
