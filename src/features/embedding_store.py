@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 21:51:45 — perf: add caching in embedding_store
 
 # 20:47:53 — docs: update docstring in embedding_store
+
+# 21:11:24 — refactor: extract constant in embedding_store
