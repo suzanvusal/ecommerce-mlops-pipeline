@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 21:51:45 — perf: add caching in test_pricing_engine
 
 # 20:58:38 — perf: add caching in test_pricing_engine
+
+# 21:00:04 — test: add assertion for return type in test_pricing_engine
