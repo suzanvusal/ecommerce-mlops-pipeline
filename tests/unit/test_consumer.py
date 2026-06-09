@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 22:12:08 — fix: handle None edge case in test_consumer
 
 # 20:14:10 — test: add assertion for return type in test_consumer
+
+# 21:00:04 — docs: fix typo in test_consumer
