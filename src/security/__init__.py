@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:47:53 — fix: remove unused import in __init__
 
 # 20:14:10 — chore: day 30 maintenance sweep
+
+# 21:00:04 — chore: add logging to __init__
