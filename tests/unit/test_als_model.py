@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 21:09:19 — refactor: consolidate fixtures in conftest.py
 
 # 21:09:19 — docs: update docstring in test_als_model
+
+# 21:00:04 — refactor: rename variable for clarity in test_als_model
