@@ -69,3 +69,5 @@ def test_purchase_event_item_count():
 # 20:04:47 — style: reorder imports in test_schemas
 
 # 20:59:51 — style: reorder imports in test_schemas
+
+# 21:00:04 — style: run black formatter on test_schemas
