@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:47:53 — docs: update docstring in embedding_store
 
 # 21:11:24 — refactor: extract constant in embedding_store
+
+# 21:00:04 — refactor: extract constant in embedding_store
