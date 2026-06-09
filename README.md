@@ -103,9 +103,3 @@ src/
 
 ## License
 MIT
-
-# 21:11:24 — ci: add end-to-end smoke test to release pipeline
-
-# 21:11:24 — chore: archive development notebooks
-
-# 21:11:24 — fix: env variable names inconsistent
