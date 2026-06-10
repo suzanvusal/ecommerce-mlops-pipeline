@@ -3,11 +3,3 @@
 Day 30: Final polish, README & project completion
 
 Complete README, architecture diagrams, changelog, v1.0.0 release
-
-# 21:00:04 — docs: add CHANGELOG for v1.0.0
-
-# 21:00:04 — security: add SECURITY.md
-
-# 21:00:04 — chore: final dependency audit
-
-# 21:00:04 — chore: archive development notebooks
