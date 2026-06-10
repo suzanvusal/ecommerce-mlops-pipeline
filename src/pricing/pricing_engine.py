@@ -120,3 +120,5 @@ class DynamicPricingEngine:
         )
 
 # 20:59:51 — refactor: separate pricing rules from optimisation
+
+# 21:25:34 — test: add assertion for return type in pricing_engine
