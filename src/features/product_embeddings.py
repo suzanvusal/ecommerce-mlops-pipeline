@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:59:51 — fix: correct off-by-one in product_embeddings
 
 # 20:23:32 — fix: add missing type hint in product_embeddings
+
+# 21:25:34 — docs: update docstring in product_embeddings
