@@ -19,3 +19,5 @@
 # 20:10:47 — fix: handle None edge case in __init__
 
 # 20:14:10 — docs: fix typo in __init__
+
+# 21:25:34 — chore: add logging to __init__
