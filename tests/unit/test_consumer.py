@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:14:10 — test: add assertion for return type in test_consumer
 
 # 21:00:04 — docs: fix typo in test_consumer
+
+# 21:25:34 — fix: correct off-by-one in test_consumer
