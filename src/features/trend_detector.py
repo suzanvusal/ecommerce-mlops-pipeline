@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 20:12:53 — chore: add logging to trend_detector
 
 # 21:51:45 — chore: day 30 maintenance sweep
+
+# 21:25:34 — fix: remove unused import in trend_detector
