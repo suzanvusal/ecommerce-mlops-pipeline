@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:58:38 — style: reorder imports in reference_builder
 
 # 21:00:04 — perf: add caching in reference_builder
+
+# 21:25:34 — refactor: extract constant in reference_builder
