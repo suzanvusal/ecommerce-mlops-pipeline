@@ -103,9 +103,3 @@ src/
 
 ## License
 MIT
-
-# 21:25:34 — security: add SECURITY.md
-
-# 21:25:34 — chore: final dependency audit
-
-# 21:25:34 — chore: archive development notebooks
