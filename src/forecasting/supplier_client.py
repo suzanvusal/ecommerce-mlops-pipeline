@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:52:12 — refactor: separate stock tracking from reorder logic
 
 # 20:10:13 — fix: add missing type hint in supplier_client
+
+# 21:22:55 — docs: add module docstring to supplier_client
