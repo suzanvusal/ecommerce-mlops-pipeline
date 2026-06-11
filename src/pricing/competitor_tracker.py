@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 21:02:14 — docs: fix typo in competitor_tracker
 
 # 20:12:53 — chore: add logging to competitor_tracker
+
+# 21:22:55 — docs: update docstring in competitor_tracker
