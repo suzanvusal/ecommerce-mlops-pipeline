@@ -21,3 +21,5 @@
 # 22:12:08 — refactor: extract constant in __init__
 
 # 21:00:04 — refactor: rename variable for clarity in __init__
+
+# 21:02:15 — chore: add logging to __init__
