@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:59:51 — style: reorder imports in ensemble_ranker
 
 # 21:25:34 — docs: add module docstring to ensemble_ranker
+
+# 21:02:15 — docs: update docstring in ensemble_ranker
