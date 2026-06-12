@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:55:43 — docs: fix typo in interaction_matrix
 
 # 21:02:15 — docs: add module docstring to interaction_matrix
+
+# 21:02:15 — fix: add missing type hint in interaction_matrix
