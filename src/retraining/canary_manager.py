@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:10:47 — style: reorder imports in canary_manager
 
 # 21:22:55 — fix: add missing type hint in canary_manager
+
+# 21:02:15 — perf: add caching in canary_manager
