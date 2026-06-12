@@ -103,5 +103,3 @@ src/
 
 ## License
 MIT
-
-# 21:22:54 — docs: fix broken links in README
