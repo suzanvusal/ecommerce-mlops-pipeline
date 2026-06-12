@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:43:35 — refactor: extract constant in similarity_search
 
 # 21:50:18 — chore: add logging to similarity_search
+
+# 21:02:15 — test: add assertion for return type in similarity_search
