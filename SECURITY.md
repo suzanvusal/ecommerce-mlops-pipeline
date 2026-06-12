@@ -9,3 +9,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 21:02:15 — docs: add business impact section to README
 
 # 21:02:15 — chore: archive development notebooks
+
+# 21:02:15 — docs: fix broken links in README
