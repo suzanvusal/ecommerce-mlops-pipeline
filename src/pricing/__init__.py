@@ -15,3 +15,5 @@
 # 21:02:14 — fix: handle None edge case in __init__
 
 # 20:14:10 — docs: add module docstring to __init__
+
+# 21:02:15 — fix: add missing type hint in __init__
