@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:52:12 — test: add assertion for return type in interaction_matrix
 
 # 20:55:43 — docs: fix typo in interaction_matrix
+
+# 21:02:15 — docs: add module docstring to interaction_matrix
