@@ -104,3 +104,5 @@ class ProphetDemandForecaster:
 # 20:26:17 — test: add Prophet tests with synthetic seasonal demand
 
 # 20:26:17 — refactor: extract constant in prophet_forecaster
+
+# 20:17:17 — chore: add logging to prophet_forecaster
