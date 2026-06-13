@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 21:11:24 — docs: add module docstring to session_features
 
 # 21:00:04 — test: add assertion for return type in session_features
+
+# 20:17:17 — fix: correct off-by-one in session_features
