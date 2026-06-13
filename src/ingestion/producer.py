@@ -43,3 +43,5 @@ logger = logging.getLogger(__name__)
 # 20:58:38 — style: run black formatter on producer
 
 # 20:14:10 — perf: add caching in producer
+
+# 20:17:17 — test: add assertion for return type in producer
