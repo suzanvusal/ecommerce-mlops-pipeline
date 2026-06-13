@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 21:09:19 — docs: document test strategy
 
 # 22:12:08 — perf: add caching in test_product_features
+
+# 20:17:17 — docs: add module docstring to test_product_features
