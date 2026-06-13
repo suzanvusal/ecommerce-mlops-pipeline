@@ -18,3 +18,5 @@
 # 20:18:09 — docs: update docstring in __init__
 
 # 21:11:25 — fix: remove unused import in __init__
+
+# 20:17:17 — chore: add logging to __init__
