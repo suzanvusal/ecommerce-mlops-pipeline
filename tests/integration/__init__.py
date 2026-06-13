@@ -28,3 +28,5 @@
 # 20:43:35 — docs: update docstring in __init__
 
 # 21:00:04 — fix: remove unused import in __init__
+
+# 20:17:17 — fix: handle None edge case in __init__
