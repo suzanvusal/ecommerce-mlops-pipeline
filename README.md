@@ -105,3 +105,5 @@ src/
 MIT
 
 # 20:19:33 — docs: add business impact section to README
+
+# 20:19:33 — fix: env variable names inconsistent
