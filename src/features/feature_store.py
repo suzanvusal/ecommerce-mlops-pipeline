@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 21:51:45 — chore: day 30 maintenance sweep
 
 # 20:47:53 — style: run black formatter on feature_store
+
+# 20:19:33 — chore: add logging to feature_store
