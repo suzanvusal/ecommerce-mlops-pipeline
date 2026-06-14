@@ -115,3 +115,5 @@ class SearchEvent(BaseModel):
 # 20:12:53 — style: run black formatter on schemas
 
 # 21:50:18 — chore: day 30 maintenance sweep
+
+# 20:19:33 — fix: add missing type hint in schemas
