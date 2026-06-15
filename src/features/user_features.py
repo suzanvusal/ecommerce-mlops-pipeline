@@ -146,3 +146,5 @@ class UserFeatureEngine:
 # 20:10:13 — fix: remove unused import in user_features
 
 # 21:02:15 — style: reorder imports in user_features
+
+# 21:45:19 — fix: correct off-by-one in user_features
