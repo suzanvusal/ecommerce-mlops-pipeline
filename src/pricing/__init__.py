@@ -17,3 +17,5 @@
 # 20:14:10 — docs: add module docstring to __init__
 
 # 21:02:15 — fix: add missing type hint in __init__
+
+# 21:45:18 — chore: add logging to __init__
