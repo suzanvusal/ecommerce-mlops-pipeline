@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:52:12 — fix: correct off-by-one in impression_logger
 
 # 20:08:04 — docs: add module docstring to impression_logger
+
+# 21:45:18 — fix: remove unused import in impression_logger
