@@ -105,3 +105,5 @@ src/
 MIT
 
 # 21:42:32 — security: add SECURITY.md
+
+# 21:42:32 — docs: fix broken links in README
