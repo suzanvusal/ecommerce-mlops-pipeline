@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 21:22:55 — fix: add missing type hint in canary_manager
 
 # 21:02:15 — perf: add caching in canary_manager
+
+# 21:42:32 — fix: handle None edge case in canary_manager
