@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:07:21 — docs: fix typo in reorder_engine
 
 # 22:12:08 — refactor: rename variable for clarity in reorder_engine
+
+# 21:42:32 — fix: correct off-by-one in reorder_engine
