@@ -106,3 +106,5 @@ class ProphetDemandForecaster:
 # 20:26:17 — refactor: extract constant in prophet_forecaster
 
 # 20:17:17 — chore: add logging to prophet_forecaster
+
+# 21:10:10 — docs: add module docstring to prophet_forecaster
