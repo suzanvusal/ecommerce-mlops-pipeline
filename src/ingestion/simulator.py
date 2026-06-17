@@ -146,3 +146,5 @@ class EcommerceSimulator:
 # 21:50:18 — style: run black formatter on simulator
 
 # 20:17:17 — style: run black formatter on simulator
+
+# 21:10:10 — fix: add missing type hint in simulator
