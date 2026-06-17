@@ -117,3 +117,5 @@ class SearchEvent(BaseModel):
 # 21:50:18 — chore: day 30 maintenance sweep
 
 # 20:19:33 — fix: add missing type hint in schemas
+
+# 21:10:10 — fix: add missing type hint in schemas
