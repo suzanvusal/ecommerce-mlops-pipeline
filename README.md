@@ -109,3 +109,5 @@ MIT
 # 21:10:09 — chore: tag v1.0.0 release
 
 # 21:10:09 — chore: archive development notebooks
+
+# 21:10:09 — fix: env variable names inconsistent
