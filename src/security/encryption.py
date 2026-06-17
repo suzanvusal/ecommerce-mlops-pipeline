@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 21:10:10 — perf: add caching in encryption
+
+# 21:10:10 — docs: update docstring in encryption
