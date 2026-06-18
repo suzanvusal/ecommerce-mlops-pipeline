@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:46:44 — fix: add missing type hint in rfm_calculator
 
 # 20:59:51 — fix: correct off-by-one in rfm_calculator
+
+# 21:22:37 — chore: add logging to rfm_calculator
