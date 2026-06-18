@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:12:53 — refactor: rename variable for clarity in test_serving_api
 
 # 20:47:53 — docs: update docstring in test_serving_api
+
+# 21:22:37 — fix: remove unused import in test_serving_api
