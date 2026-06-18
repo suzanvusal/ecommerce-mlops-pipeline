@@ -12,3 +12,5 @@
 # 20:55:43 — refactor: rename variable for clarity in __init__
 
 # 21:50:18 — style: reorder imports in __init__
+
+# 21:22:37 — perf: add caching in __init__
