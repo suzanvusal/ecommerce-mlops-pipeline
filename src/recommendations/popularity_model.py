@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 21:51:45 — style: run black formatter on popularity_model
 
 # 21:00:04 — style: run black formatter on popularity_model
+
+# 21:22:37 — fix: handle None edge case in popularity_model
