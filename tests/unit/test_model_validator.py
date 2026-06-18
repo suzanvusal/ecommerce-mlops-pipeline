@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:23:32 — fix: NDCG computation using wrong ranking formula
 
 # 21:10:10 — chore: day 30 maintenance sweep
+
+# 21:22:37 — docs: fix typo in test_model_validator
