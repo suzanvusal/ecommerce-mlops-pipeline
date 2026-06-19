@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 20:10:47 — style: run black formatter on price_features
 
 # 21:42:32 — docs: add module docstring to price_features
+
+# 20:26:15 — fix: add missing type hint in price_features
