@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:14:10 — test: add assertion for return type in significance_tester
 
 # 21:22:37 — refactor: extract constant in significance_tester
+
+# 20:26:15 — docs: add module docstring to significance_tester
