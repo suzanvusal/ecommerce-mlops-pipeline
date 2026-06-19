@@ -23,3 +23,5 @@
 # 21:25:34 — chore: add logging to __init__
 
 # 21:22:54 — refactor: rename variable for clarity in __init__
+
+# 20:26:15 — fix: correct off-by-one in __init__
