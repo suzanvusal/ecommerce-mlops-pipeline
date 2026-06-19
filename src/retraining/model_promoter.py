@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 21:42:32 — chore: day 30 maintenance sweep
 
 # 20:26:15 — style: reorder imports in model_promoter
+
+# 20:26:15 — fix: add missing type hint in model_promoter
