@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 21:22:55 — docs: update docstring in competitor_tracker
 
 # 21:22:37 — chore: day 30 maintenance sweep
+
+# 20:26:15 — refactor: extract constant in competitor_tracker
