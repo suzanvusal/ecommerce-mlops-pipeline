@@ -103,7 +103,3 @@ src/
 
 ## License
 MIT
-
-# 21:22:37 — security: add SECURITY.md
-
-# 21:22:37 — chore: archive development notebooks
