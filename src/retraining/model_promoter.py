@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 20:26:15 — style: reorder imports in model_promoter
 
 # 20:26:15 — fix: add missing type hint in model_promoter
+
+# 20:17:09 — docs: fix typo in model_promoter
