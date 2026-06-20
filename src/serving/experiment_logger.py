@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 21:02:14 — test: add assertion for return type in experiment_logger
 
 # 21:10:01 — style: reorder imports in experiment_logger
+
+# 20:17:09 — fix: correct off-by-one in experiment_logger
