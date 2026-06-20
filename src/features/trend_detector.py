@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 21:51:45 — chore: day 30 maintenance sweep
 
 # 21:25:34 — fix: remove unused import in trend_detector
+
+# 20:17:09 — fix: handle None edge case in trend_detector
