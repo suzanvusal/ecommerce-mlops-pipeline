@@ -96,3 +96,5 @@ class ALSRecommender:
 # 21:45:19 — docs: update docstring in als_model
 
 # 21:10:10 — chore: day 30 maintenance sweep
+
+# 20:17:09 — fix: correct off-by-one in als_model
