@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 21:51:45 — docs: add module docstring to two_tower_trainer
 
 # 21:11:24 — fix: add missing type hint in two_tower_trainer
+
+# 20:17:09 — fix: add missing type hint in two_tower_trainer
