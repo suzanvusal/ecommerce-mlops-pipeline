@@ -115,3 +115,5 @@ async def metrics():
 # 20:10:13 — style: run black formatter on api
 
 # 21:02:16 — test: add assertion for return type in api
+
+# 20:17:09 — perf: add caching in api
