@@ -103,9 +103,3 @@ src/
 
 ## License
 MIT
-
-# 20:26:15 — chore: tag v1.0.0 release
-
-# 20:26:15 — chore: final dependency audit
-
-# 20:26:15 — fix: env variable names inconsistent
