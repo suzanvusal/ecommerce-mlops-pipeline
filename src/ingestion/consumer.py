@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 21:51:45 — docs: fix typo in consumer
 
 # 20:58:38 — docs: update docstring in consumer
+
+# 20:17:09 — test: add assertion for return type in consumer
