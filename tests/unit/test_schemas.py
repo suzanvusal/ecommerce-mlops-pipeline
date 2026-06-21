@@ -77,3 +77,5 @@ def test_purchase_event_item_count():
 # 21:42:32 — style: run black formatter on test_schemas
 
 # 20:17:09 — style: run black formatter on test_schemas
+
+# 20:26:12 — fix: remove unused import in test_schemas
