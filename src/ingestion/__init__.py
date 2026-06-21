@@ -17,3 +17,5 @@
 # 20:10:13 — fix: correct off-by-one in __init__
 
 # 20:12:53 — refactor: extract constant in __init__
+
+# 20:26:12 — docs: update docstring in __init__
