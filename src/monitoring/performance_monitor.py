@@ -9,3 +9,5 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 20:07:21 — fix: reference builder including holiday periods causing fal
+
+# 20:26:12 — test: add assertion for return type in performance_monitor
