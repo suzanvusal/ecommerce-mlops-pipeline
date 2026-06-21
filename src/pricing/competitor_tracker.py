@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 20:26:15 — refactor: extract constant in competitor_tracker
 
 # 20:26:15 — refactor: rename variable for clarity in competitor_tracker
+
+# 20:26:12 — fix: correct off-by-one in competitor_tracker
