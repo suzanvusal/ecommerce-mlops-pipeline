@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 21:25:34 — fix: remove unused import in trend_detector
 
 # 20:17:09 — fix: handle None edge case in trend_detector
+
+# 20:26:12 — docs: update docstring in trend_detector
