@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 21:02:15 — test: add assertion for return type in similarity_search
 
 # 21:45:19 — docs: update docstring in similarity_search
+
+# 20:26:12 — test: add assertion for return type in similarity_search
