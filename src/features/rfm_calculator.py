@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:59:51 — fix: correct off-by-one in rfm_calculator
 
 # 21:22:37 — chore: add logging to rfm_calculator
+
+# 21:31:52 — docs: update docstring in rfm_calculator
