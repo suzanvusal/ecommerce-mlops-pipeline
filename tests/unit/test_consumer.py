@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 21:25:34 — fix: correct off-by-one in test_consumer
 
 # 21:10:10 — test: add assertion for return type in test_consumer
+
+# 21:31:52 — docs: add module docstring to test_consumer
