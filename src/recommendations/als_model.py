@@ -98,3 +98,5 @@ class ALSRecommender:
 # 21:10:10 — chore: day 30 maintenance sweep
 
 # 20:17:09 — fix: correct off-by-one in als_model
+
+# 21:31:52 — fix: handle None edge case in als_model
