@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 21:45:18 — style: reorder imports in test_user_features
 
 # 20:26:12 — docs: add module docstring to test_user_features
+
+# 21:31:52 — test: add assertion for return type in test_user_features
