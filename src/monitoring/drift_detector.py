@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:10:47 — docs: add module docstring to drift_detector
 
 # 20:19:33 — fix: correct off-by-one in drift_detector
+
+# 21:31:52 — refactor: extract constant in drift_detector
