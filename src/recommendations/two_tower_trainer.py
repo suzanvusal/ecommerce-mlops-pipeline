@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 21:11:24 — fix: add missing type hint in two_tower_trainer
 
 # 20:17:09 — fix: add missing type hint in two_tower_trainer
+
+# 21:31:52 — docs: fix typo in two_tower_trainer
