@@ -103,3 +103,5 @@ src/
 
 ## License
 MIT
+
+# 21:31:52 — docs: add business impact section to README
