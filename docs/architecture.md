@@ -9,3 +9,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 21:31:52 — chore: tag v1.0.0 release
 
 # 21:31:52 — chore: final dependency audit
+
+# 21:31:52 — chore: archive development notebooks
