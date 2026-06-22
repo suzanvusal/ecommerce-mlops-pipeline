@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 22:12:08 — refactor: rename variable for clarity in reorder_engine
 
 # 21:42:32 — fix: correct off-by-one in reorder_engine
+
+# 21:31:52 — refactor: extract constant in reorder_engine
