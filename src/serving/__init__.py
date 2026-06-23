@@ -27,3 +27,5 @@
 # 20:46:44 — docs: add module docstring to __init__
 
 # 21:11:24 — fix: handle None edge case in __init__
+
+# 21:00:57 — refactor: extract constant in __init__
