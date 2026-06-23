@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 19:59:20 — perf: add caching in feature_schema
 
 # 20:23:32 — style: reorder imports in feature_schema
+
+# 21:00:57 — fix: remove unused import in feature_schema
