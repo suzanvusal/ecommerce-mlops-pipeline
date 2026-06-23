@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:17:17 — docs: add module docstring to test_product_features
 
 # 21:10:10 — fix: remove unused import in test_product_features
+
+# 21:00:57 — fix: add missing type hint in test_product_features
