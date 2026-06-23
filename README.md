@@ -103,3 +103,5 @@ src/
 
 ## License
 MIT
+
+# 21:00:57 — security: add SECURITY.md
