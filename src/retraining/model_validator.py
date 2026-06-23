@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 21:10:01 — refactor: extract constant in model_validator
 
 # 21:50:18 — perf: add caching in model_validator
+
+# 21:00:57 — docs: add module docstring to model_validator
