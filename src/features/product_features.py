@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 20:17:17 — fix: add missing type hint in product_features
 
 # 21:22:37 — perf: add caching in product_features
+
+# 21:00:57 — style: run black formatter on product_features
