@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 20:26:12 — fix: remove unused import in significance_tester
 
 # 21:31:52 — chore: add logging to significance_tester
+
+# 20:49:12 — fix: handle None edge case in significance_tester
