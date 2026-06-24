@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:58:38 — fix: handle None edge case in implicit_feedback
 
 # 21:02:15 — perf: add caching in implicit_feedback
+
+# 20:49:12 — chore: add logging to implicit_feedback
