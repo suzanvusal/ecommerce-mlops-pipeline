@@ -30,3 +30,5 @@ __version__ = "0.1.0"
 # 20:12:53 — style: reorder imports in __init__
 
 # 20:58:38 — docs: fix typo in __init__
+
+# 20:49:12 — test: add assertion for return type in __init__
