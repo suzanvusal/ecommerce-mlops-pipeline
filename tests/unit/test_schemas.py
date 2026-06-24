@@ -79,3 +79,5 @@ def test_purchase_event_item_count():
 # 20:17:09 — style: run black formatter on test_schemas
 
 # 20:26:12 — fix: remove unused import in test_schemas
+
+# 20:49:12 — docs: add module docstring to test_schemas
