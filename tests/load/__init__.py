@@ -18,3 +18,5 @@
 # 21:10:02 — docs: fix typo in __init__
 
 # 21:50:18 — docs: update docstring in __init__
+
+# 20:49:12 — fix: add missing type hint in __init__
