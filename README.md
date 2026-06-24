@@ -103,11 +103,3 @@ src/
 
 ## License
 MIT
-
-# 21:00:57 — security: add SECURITY.md
-
-# 21:00:57 — ci: add end-to-end smoke test to release pipeline
-
-# 21:00:57 — chore: archive development notebooks
-
-# 21:00:57 — docs: fix broken links in README
