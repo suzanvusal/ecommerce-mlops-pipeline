@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 21:00:57 — fix: remove unused import in feature_schema
 
 # 20:58:50 — fix: handle None edge case in feature_schema
+
+# 20:58:50 — style: run black formatter on feature_schema
