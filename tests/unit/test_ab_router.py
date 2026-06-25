@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 21:42:32 — chore: day 30 maintenance sweep
 
 # 20:17:09 — chore: day 30 maintenance sweep
+
+# 20:58:50 — chore: add logging to test_ab_router
