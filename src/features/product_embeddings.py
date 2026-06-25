@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 21:25:34 — docs: update docstring in product_embeddings
 
 # 21:45:18 — chore: add logging to product_embeddings
+
+# 20:58:50 — fix: add missing type hint in product_embeddings
