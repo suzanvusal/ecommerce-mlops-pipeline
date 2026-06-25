@@ -20,3 +20,5 @@
 # 21:50:18 — docs: update docstring in __init__
 
 # 20:49:12 — fix: add missing type hint in __init__
+
+# 20:58:50 — fix: remove unused import in __init__
