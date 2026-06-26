@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 21:51:45 — style: run black formatter on forecast_store
 
 # 20:49:12 — fix: correct off-by-one in forecast_store
+
+# 20:48:04 — perf: add caching in forecast_store
