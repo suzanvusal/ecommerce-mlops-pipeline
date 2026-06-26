@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 20:19:33 — refactor: rename variable for clarity in forecast_ensemble
 
 # 20:19:33 — chore: day 30 maintenance sweep
+
+# 20:48:04 — docs: add module docstring to forecast_ensemble
