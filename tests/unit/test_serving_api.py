@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 21:22:37 — fix: remove unused import in test_serving_api
 
 # 21:00:57 — chore: day 30 maintenance sweep
+
+# 20:48:03 — test: add assertion for return type in test_serving_api
