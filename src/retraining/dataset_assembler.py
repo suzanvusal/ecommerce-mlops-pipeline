@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 21:09:19 — chore: day 28 maintenance sweep
 
 # 21:25:34 — docs: add module docstring to dataset_assembler
+
+# 20:48:04 — refactor: extract constant in dataset_assembler
