@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 20:47:53 — fix: handle None edge case in response_models
 
 # 20:10:47 — docs: add module docstring to response_models
+
+# 20:48:04 — fix: correct off-by-one in response_models
