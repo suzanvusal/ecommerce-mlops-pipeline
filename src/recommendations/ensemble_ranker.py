@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 21:25:34 — docs: add module docstring to ensemble_ranker
 
 # 21:02:15 — docs: update docstring in ensemble_ranker
+
+# 20:48:04 — refactor: extract constant in ensemble_ranker
