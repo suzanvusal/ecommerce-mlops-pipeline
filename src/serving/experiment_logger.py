@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:17:09 — fix: correct off-by-one in experiment_logger
 
 # 20:48:03 — fix: remove unused import in experiment_logger
+
+# 20:48:04 — docs: update docstring in experiment_logger
