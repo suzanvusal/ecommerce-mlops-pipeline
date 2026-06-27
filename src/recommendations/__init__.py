@@ -11,3 +11,5 @@
 # 20:02:24 — refactor: extract constant in __init__
 
 # 21:00:57 — chore: day 30 maintenance sweep
+
+# 20:09:43 — docs: add module docstring to __init__
