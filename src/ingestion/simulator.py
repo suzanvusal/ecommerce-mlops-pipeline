@@ -150,3 +150,5 @@ class EcommerceSimulator:
 # 21:10:10 — fix: add missing type hint in simulator
 
 # 21:00:57 — docs: add module docstring to simulator
+
+# 20:09:43 — docs: add module docstring to simulator
