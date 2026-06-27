@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 21:25:34 — docs: add module docstring to dataset_assembler
 
 # 20:48:04 — refactor: extract constant in dataset_assembler
+
+# 20:09:43 — docs: update docstring in dataset_assembler
