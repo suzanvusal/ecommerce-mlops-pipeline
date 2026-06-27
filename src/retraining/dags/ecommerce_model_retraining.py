@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:17:17 — perf: add caching in ecommerce_model_retraining
 
 # 21:42:32 — fix: add missing type hint in ecommerce_model_retraining
+
+# 20:09:43 — fix: correct off-by-one in ecommerce_model_retraining
