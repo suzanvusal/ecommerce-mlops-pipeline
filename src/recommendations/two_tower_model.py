@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 21:10:10 — refactor: rename variable for clarity in two_tower_model
 
 # 20:17:09 — test: add assertion for return type in two_tower_model
+
+# 20:09:43 — perf: add caching in two_tower_model
