@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:55:43 — fix: memory leak in FAISS index under sustained load
 
 # 20:48:04 — docs: add module docstring to recommendation_load
+
+# 20:15:20 — fix: correct off-by-one in recommendation_load
