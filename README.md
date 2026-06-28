@@ -103,9 +103,3 @@ src/
 
 ## License
 MIT
-
-# 20:09:43 — security: add SECURITY.md
-
-# 20:09:43 — chore: archive development notebooks
-
-# 20:09:43 — docs: fix broken links in README
