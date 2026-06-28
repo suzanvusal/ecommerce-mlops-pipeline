@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:58:38 — docs: update docstring in test_two_tower
 
 # 20:19:33 — style: reorder imports in test_two_tower
+
+# 20:15:20 — test: add assertion for return type in test_two_tower
