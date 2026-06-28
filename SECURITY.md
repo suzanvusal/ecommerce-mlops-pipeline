@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 20:15:19 — docs: add business impact section to README
 
 # 20:15:19 — chore: final dependency audit
+
+# 20:15:19 — chore: archive development notebooks
