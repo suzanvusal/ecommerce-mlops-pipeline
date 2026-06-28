@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 21:22:55 — style: run black formatter on embedding_store
 
 # 20:26:12 — test: add assertion for return type in embedding_store
+
+# 20:15:20 — test: add assertion for return type in embedding_store
