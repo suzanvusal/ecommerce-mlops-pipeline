@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 21:42:32 — fix: correct off-by-one in reorder_engine
 
 # 21:31:52 — refactor: extract constant in reorder_engine
+
+# 20:15:20 — fix: handle None edge case in reorder_engine
