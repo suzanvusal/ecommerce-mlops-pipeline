@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 21:50:18 — perf: add caching in model_validator
 
 # 21:00:57 — docs: add module docstring to model_validator
+
+# 20:15:20 — style: reorder imports in model_validator
