@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 21:45:19 — chore: day 30 maintenance sweep
 
 # 21:10:10 — fix: correct off-by-one in test_drift_detector
+
+# 20:15:19 — fix: handle None edge case in test_drift_detector
