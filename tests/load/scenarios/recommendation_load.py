@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:48:04 — docs: add module docstring to recommendation_load
 
 # 20:15:20 — fix: correct off-by-one in recommendation_load
+
+# 20:49:35 — refactor: extract constant in recommendation_load
