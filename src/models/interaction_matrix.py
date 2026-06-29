@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 21:22:37 — perf: add caching in interaction_matrix
 
 # 20:49:12 — chore: add logging to interaction_matrix
+
+# 20:49:35 — docs: fix typo in interaction_matrix
