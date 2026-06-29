@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:55:43 — test: add assertion for return type in test_impression_logge
 
 # 20:17:17 — docs: fix typo in test_impression_logger
+
+# 20:49:35 — style: run black formatter on test_impression_logger
