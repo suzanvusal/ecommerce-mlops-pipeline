@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 20:58:38 — docs: update docstring in consumer
 
 # 20:17:09 — test: add assertion for return type in consumer
+
+# 20:49:35 — test: add assertion for return type in consumer
