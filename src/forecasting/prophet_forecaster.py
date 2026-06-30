@@ -108,3 +108,5 @@ class ProphetDemandForecaster:
 # 20:17:17 — chore: add logging to prophet_forecaster
 
 # 21:10:10 — docs: add module docstring to prophet_forecaster
+
+# 20:57:19 — fix: handle None edge case in prophet_forecaster
