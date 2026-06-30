@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 21:00:04 — chore: add logging to __init__
 
 # 21:31:52 — refactor: rename variable for clarity in __init__
+
+# 20:57:19 — refactor: extract constant in __init__
