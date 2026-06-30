@@ -105,3 +105,5 @@ src/
 MIT
 
 # 20:57:19 — ci: add end-to-end smoke test to release pipeline
+
+# 20:57:19 — fix: env variable names inconsistent
