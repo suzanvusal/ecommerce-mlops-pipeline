@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 21:42:32 — fix: handle None edge case in canary_manager
 
 # 20:49:12 — style: reorder imports in canary_manager
+
+# 20:57:19 — refactor: extract constant in canary_manager
