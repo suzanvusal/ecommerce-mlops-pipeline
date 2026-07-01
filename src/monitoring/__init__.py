@@ -23,3 +23,5 @@
 # 21:00:04 — refactor: rename variable for clarity in __init__
 
 # 21:02:15 — chore: add logging to __init__
+
+# 20:47:50 — test: add assertion for return type in __init__
