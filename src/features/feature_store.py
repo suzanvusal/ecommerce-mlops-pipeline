@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:19:33 — chore: add logging to feature_store
 
 # 20:49:12 — fix: add missing type hint in feature_store
+
+# 20:47:50 — refactor: rename variable for clarity in feature_store
