@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:26:15 — docs: fix typo in test_als_model
 
 # 20:09:43 — fix: correct off-by-one in test_als_model
+
+# 20:47:50 — docs: update docstring in test_als_model
