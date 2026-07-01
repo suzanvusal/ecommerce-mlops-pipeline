@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 21:50:18 — fix: add missing type hint in session_tracker
 
 # 20:58:38 — style: run black formatter on session_tracker
+
+# 20:47:50 — fix: handle None edge case in session_tracker
