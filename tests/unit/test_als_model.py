@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 20:09:43 — fix: correct off-by-one in test_als_model
 
 # 20:47:50 — docs: update docstring in test_als_model
+
+# 20:47:50 — chore: add logging to test_als_model
