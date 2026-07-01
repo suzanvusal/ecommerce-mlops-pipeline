@@ -13,3 +13,5 @@
 # 21:00:57 — chore: day 30 maintenance sweep
 
 # 20:09:43 — docs: add module docstring to __init__
+
+# 20:47:50 — perf: add caching in __init__
