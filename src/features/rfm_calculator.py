@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 21:31:52 — docs: update docstring in rfm_calculator
 
 # 20:09:43 — chore: add logging to rfm_calculator
+
+# 20:47:50 — fix: handle None edge case in rfm_calculator
