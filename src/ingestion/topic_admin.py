@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 22:12:08 — style: run black formatter on topic_admin
 
 # 21:50:18 — docs: update docstring in topic_admin
+
+# 20:20:08 — refactor: extract constant in topic_admin
