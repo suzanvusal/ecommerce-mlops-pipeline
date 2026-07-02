@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:49:35 — style: run black formatter on test_impression_logger
 
 # 20:47:50 — test: add assertion for return type in test_impression_logge
+
+# 20:20:08 — perf: add caching in test_impression_logger
