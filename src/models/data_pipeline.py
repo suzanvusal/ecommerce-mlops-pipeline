@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:58:38 — chore: add logging to data_pipeline
 
 # 20:17:09 — fix: handle None edge case in data_pipeline
+
+# 20:20:08 — fix: correct off-by-one in data_pipeline
