@@ -124,3 +124,5 @@ class DynamicPricingEngine:
 # 21:25:34 — test: add assertion for return type in pricing_engine
 
 # 20:15:19 — style: reorder imports in pricing_engine
+
+# 20:20:08 — chore: add logging to pricing_engine
