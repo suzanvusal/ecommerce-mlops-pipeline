@@ -9,3 +9,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 20:20:07 — ci: add end-to-end smoke test to release pipeline
 
 # 20:20:08 — docs: fix broken links in README
+
+# 20:20:08 — refactor: remove all TODO comments
