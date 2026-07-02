@@ -121,3 +121,5 @@ class SearchEvent(BaseModel):
 # 21:10:10 — fix: add missing type hint in schemas
 
 # 20:58:50 — docs: fix typo in schemas
+
+# 20:20:08 — fix: correct off-by-one in schemas
