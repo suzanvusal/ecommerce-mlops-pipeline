@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 21:31:52 — refactor: rename variable for clarity in __init__
 
 # 20:57:19 — refactor: extract constant in __init__
+
+# 20:20:08 — docs: add module docstring to __init__
