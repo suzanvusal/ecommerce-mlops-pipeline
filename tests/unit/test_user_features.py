@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 20:26:12 — docs: add module docstring to test_user_features
 
 # 21:31:52 — test: add assertion for return type in test_user_features
+
+# 20:16:23 — perf: add caching in test_user_features
