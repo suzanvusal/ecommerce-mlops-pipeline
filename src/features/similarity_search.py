@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 20:49:12 — refactor: rename variable for clarity in similarity_search
 
 # 20:15:19 — style: reorder imports in similarity_search
+
+# 20:16:23 — docs: update docstring in similarity_search
