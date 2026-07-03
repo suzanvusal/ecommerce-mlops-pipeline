@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 21:31:52 — docs: fix typo in two_tower_trainer
 
 # 20:48:04 — docs: update docstring in two_tower_trainer
+
+# 20:16:23 — perf: add caching in two_tower_trainer
