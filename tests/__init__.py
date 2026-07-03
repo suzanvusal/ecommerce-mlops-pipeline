@@ -16,3 +16,5 @@
 # 21:22:37 — perf: add caching in __init__
 
 # 20:49:12 — docs: fix typo in __init__
+
+# 20:16:23 — fix: add missing type hint in __init__
