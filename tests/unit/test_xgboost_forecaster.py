@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 20:26:12 — refactor: rename variable for clarity in test_xgboost_foreca
 
 # 20:58:50 — style: reorder imports in test_xgboost_forecaster
+
+# 20:10:42 — docs: fix typo in test_xgboost_forecaster
