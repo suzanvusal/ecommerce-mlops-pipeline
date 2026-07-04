@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 21:00:58 — chore: day 30 maintenance sweep
 
 # 20:09:43 — style: run black formatter on xgboost_forecaster
+
+# 20:10:42 — fix: handle None edge case in xgboost_forecaster
