@@ -13,3 +13,5 @@ logger = logging.getLogger(__name__)
 # 20:55:43 — docs: fix typo in seasonality_detector
 
 # 20:26:15 — style: run black formatter on seasonality_detector
+
+# 20:10:42 — fix: handle None edge case in seasonality_detector
