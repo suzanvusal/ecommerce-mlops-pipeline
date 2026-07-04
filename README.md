@@ -103,3 +103,5 @@ src/
 
 ## License
 MIT
+
+# 20:10:42 — chore: tag v1.0.0 release
