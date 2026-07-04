@@ -103,7 +103,3 @@ src/
 
 ## License
 MIT
-
-# 20:16:23 — ci: add end-to-end smoke test to release pipeline
-
-# 20:16:23 — docs: fix broken links in README
