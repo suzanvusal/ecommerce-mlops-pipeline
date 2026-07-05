@@ -105,3 +105,5 @@ src/
 MIT
 
 # 20:16:02 — docs: add CHANGELOG for v1.0.0
+
+# 20:16:02 — security: add SECURITY.md
