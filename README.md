@@ -107,3 +107,5 @@ MIT
 # 20:16:02 — docs: add CHANGELOG for v1.0.0
 
 # 20:16:02 — security: add SECURITY.md
+
+# 20:16:02 — chore: tag v1.0.0 release
