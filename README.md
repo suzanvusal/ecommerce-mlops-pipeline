@@ -103,3 +103,5 @@ src/
 
 ## License
 MIT
+
+# 20:16:02 — docs: add CHANGELOG for v1.0.0
