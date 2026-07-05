@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 20:47:50 — docs: update docstring in test_als_model
 
 # 20:47:50 — chore: add logging to test_als_model
+
+# 20:16:02 — refactor: extract constant in test_als_model
