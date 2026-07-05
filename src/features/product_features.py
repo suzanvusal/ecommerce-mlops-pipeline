@@ -39,3 +39,5 @@ logger = logging.getLogger(__name__)
 # 21:00:57 — style: run black formatter on product_features
 
 # 20:15:19 — fix: handle None edge case in product_features
+
+# 20:16:02 — fix: handle None edge case in product_features
