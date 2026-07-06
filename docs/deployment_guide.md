@@ -9,3 +9,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 20:53:02 — security: add SECURITY.md
 
 # 20:53:02 — docs: add business impact section to README
+
+# 20:53:02 — chore: archive development notebooks
