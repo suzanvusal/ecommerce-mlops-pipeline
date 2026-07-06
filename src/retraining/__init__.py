@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:49:35 — style: reorder imports in __init__
 
 # 20:47:50 — docs: add module docstring to __init__
+
+# 20:53:03 — perf: add caching in __init__
