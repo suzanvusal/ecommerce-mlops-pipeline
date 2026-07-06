@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 21:11:25 — fix: correct off-by-one in tower_dataset
 
 # 20:19:33 — perf: add caching in tower_dataset
+
+# 20:53:03 — fix: handle None edge case in tower_dataset
