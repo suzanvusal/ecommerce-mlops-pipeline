@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 20:47:50 — fix: handle None edge case in rfm_calculator
 
 # 20:16:23 — refactor: extract constant in rfm_calculator
+
+# 20:53:03 — docs: fix typo in rfm_calculator
