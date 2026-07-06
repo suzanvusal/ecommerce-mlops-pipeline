@@ -123,3 +123,5 @@ class SearchEvent(BaseModel):
 # 20:58:50 — docs: fix typo in schemas
 
 # 20:20:08 — fix: correct off-by-one in schemas
+
+# 20:53:03 — fix: correct off-by-one in schemas
