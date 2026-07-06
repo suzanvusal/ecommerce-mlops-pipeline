@@ -22,3 +22,5 @@
 # 20:17:17 — chore: add logging to __init__
 
 # 20:57:19 — refactor: extract constant in __init__
+
+# 20:53:03 — fix: handle None edge case in __init__
