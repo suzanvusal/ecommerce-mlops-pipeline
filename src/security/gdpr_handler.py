@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 21:22:37 — refactor: rename variable for clarity in gdpr_handler
 
 # 21:31:52 — refactor: rename variable for clarity in gdpr_handler
+
+# 20:50:12 — fix: correct off-by-one in gdpr_handler
