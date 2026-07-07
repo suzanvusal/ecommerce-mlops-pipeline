@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 20:16:23 — refactor: extract constant in rfm_calculator
 
 # 20:53:03 — docs: fix typo in rfm_calculator
+
+# 20:50:12 — fix: correct off-by-one in rfm_calculator
