@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 21:22:55 — docs: add module docstring to supplier_client
 
 # 21:42:32 — refactor: extract constant in supplier_client
+
+# 20:50:12 — test: add assertion for return type in supplier_client
