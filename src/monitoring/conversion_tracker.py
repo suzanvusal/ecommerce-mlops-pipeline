@@ -11,3 +11,5 @@ logger = logging.getLogger(__name__)
 # 20:10:13 — perf: add caching in conversion_tracker
 
 # 20:48:04 — chore: day 30 maintenance sweep
+
+# 20:50:12 — fix: handle None edge case in conversion_tracker
