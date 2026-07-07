@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:17:09 — docs: add module docstring to popularity_model
 
 # 20:20:08 — docs: add module docstring to popularity_model
+
+# 20:50:12 — chore: add logging to popularity_model
