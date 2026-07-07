@@ -21,3 +21,5 @@
 # 20:26:12 — docs: update docstring in __init__
 
 # 20:16:23 — fix: handle None edge case in __init__
+
+# 20:50:12 — test: add assertion for return type in __init__
