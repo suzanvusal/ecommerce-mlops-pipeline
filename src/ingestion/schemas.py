@@ -125,3 +125,5 @@ class SearchEvent(BaseModel):
 # 20:20:08 — fix: correct off-by-one in schemas
 
 # 20:53:03 — fix: correct off-by-one in schemas
+
+# 20:22:14 — style: run black formatter on schemas
