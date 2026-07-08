@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:14:10 — test: add assertion for return type in audit_logger
 
 # 21:31:52 — fix: remove unused import in audit_logger
+
+# 20:22:14 — chore: add logging to audit_logger
