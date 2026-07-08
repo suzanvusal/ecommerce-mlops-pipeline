@@ -41,3 +41,5 @@ logger = logging.getLogger(__name__)
 # 20:53:03 — docs: fix typo in test_consumer
 
 # 20:53:03 — fix: add missing type hint in test_consumer
+
+# 20:22:14 — docs: add module docstring to test_consumer
