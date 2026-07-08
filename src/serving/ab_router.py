@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 21:31:52 — style: run black formatter on ab_router
 
 # 20:20:08 — perf: add caching in ab_router
+
+# 20:22:14 — fix: add missing type hint in ab_router
