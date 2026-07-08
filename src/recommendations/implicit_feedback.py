@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:16:02 — fix: remove unused import in implicit_feedback
 
 # 20:16:02 — test: add assertion for return type in implicit_feedback
+
+# 20:22:14 — chore: add logging to implicit_feedback
