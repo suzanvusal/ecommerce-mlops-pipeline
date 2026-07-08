@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 20:47:53 — fix: correct off-by-one in attribution_engine
 
 # 21:11:24 — test: add assertion for return type in attribution_engine
+
+# 20:22:14 — docs: update docstring in attribution_engine
