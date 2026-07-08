@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 21:00:57 — fix: handle None edge case in elasticity_model
 
 # 20:57:19 — fix: handle None edge case in elasticity_model
+
+# 20:22:14 — docs: add module docstring to elasticity_model
