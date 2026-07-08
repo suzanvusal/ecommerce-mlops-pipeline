@@ -106,3 +106,5 @@ class ALSRecommender:
 # 20:20:08 — style: reorder imports in als_model
 
 # 20:22:14 — docs: fix typo in als_model
+
+# 20:22:14 — fix: remove unused import in als_model
