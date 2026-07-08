@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 20:48:04 — docs: update docstring in two_tower_trainer
 
 # 20:16:23 — perf: add caching in two_tower_trainer
+
+# 20:22:14 — test: add assertion for return type in two_tower_trainer
