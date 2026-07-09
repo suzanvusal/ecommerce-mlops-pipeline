@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:49:35 — refactor: rename variable for clarity in forecast_store
 
 # 20:22:14 — refactor: rename variable for clarity in forecast_store
+
+# 20:48:24 — docs: update docstring in forecast_store
