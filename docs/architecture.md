@@ -9,3 +9,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 20:48:24 — chore: final dependency audit
 
 # 20:48:24 — chore: archive development notebooks
+
+# 20:48:24 — docs: fix broken links in README
