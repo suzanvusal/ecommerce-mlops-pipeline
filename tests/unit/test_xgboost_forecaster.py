@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 20:58:50 — style: reorder imports in test_xgboost_forecaster
 
 # 20:10:42 — docs: fix typo in test_xgboost_forecaster
+
+# 20:48:24 — fix: correct off-by-one in test_xgboost_forecaster
