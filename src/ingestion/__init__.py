@@ -23,3 +23,5 @@
 # 20:16:23 — fix: handle None edge case in __init__
 
 # 20:50:12 — test: add assertion for return type in __init__
+
+# 20:48:24 — fix: remove unused import in __init__
