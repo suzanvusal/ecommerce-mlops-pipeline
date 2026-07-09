@@ -105,3 +105,5 @@ src/
 MIT
 
 # 20:48:24 — security: add SECURITY.md
+
+# 20:48:24 — fix: env variable names inconsistent
