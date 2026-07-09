@@ -31,3 +31,5 @@
 # 20:20:08 — refactor: rename variable for clarity in __init__
 
 # 20:20:08 — fix: correct off-by-one in __init__
+
+# 20:48:24 — docs: add module docstring to __init__
