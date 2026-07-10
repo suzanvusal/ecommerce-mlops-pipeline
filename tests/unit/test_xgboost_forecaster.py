@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 20:48:24 — fix: correct off-by-one in test_xgboost_forecaster
 
 # 20:48:24 — perf: add caching in test_xgboost_forecaster
+
+# 20:24:49 — fix: correct off-by-one in test_xgboost_forecaster
