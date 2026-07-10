@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 20:48:04 — refactor: extract constant in ensemble_ranker
 
 # 20:10:42 — chore: day 30 maintenance sweep
+
+# 20:24:49 — fix: handle None edge case in ensemble_ranker
