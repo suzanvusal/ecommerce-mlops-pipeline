@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 21:42:32 — chore: day 30 maintenance sweep
 
 # 20:26:15 — docs: update docstring in mlflow_client
+
+# 20:24:49 — fix: correct off-by-one in mlflow_client
