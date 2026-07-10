@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 21:00:04 — perf: add caching in reference_builder
 
 # 21:25:34 — refactor: extract constant in reference_builder
+
+# 20:24:49 — chore: add logging to reference_builder
