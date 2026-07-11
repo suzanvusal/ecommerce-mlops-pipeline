@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 20:50:12 — docs: update docstring in test_serving_api
 
 # 20:50:12 — test: add assertion for return type in test_serving_api
+
+# 20:05:58 — chore: add logging to test_serving_api
