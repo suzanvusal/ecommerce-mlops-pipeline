@@ -105,3 +105,5 @@ src/
 MIT
 
 # 20:05:58 — security: add SECURITY.md
+
+# 20:05:58 — ci: add end-to-end smoke test to release pipeline
