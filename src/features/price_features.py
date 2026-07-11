@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 20:15:20 — docs: update docstring in price_features
 
 # 20:50:12 — fix: remove unused import in price_features
+
+# 20:05:58 — perf: add caching in price_features
