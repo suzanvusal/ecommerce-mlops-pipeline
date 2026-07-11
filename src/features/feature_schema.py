@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:58:50 — style: run black formatter on feature_schema
 
 # 20:53:03 — fix: correct off-by-one in feature_schema
+
+# 20:05:59 — chore: add logging to feature_schema
