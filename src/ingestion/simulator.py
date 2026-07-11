@@ -152,3 +152,5 @@ class EcommerceSimulator:
 # 21:00:57 — docs: add module docstring to simulator
 
 # 20:09:43 — docs: add module docstring to simulator
+
+# 20:05:58 — fix: handle None edge case in simulator
