@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:14:10 — style: reorder imports in test_inventory_manager
 
 # 20:47:50 — fix: add missing type hint in test_inventory_manager
+
+# 20:05:59 — fix: handle None edge case in test_inventory_manager
