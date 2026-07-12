@@ -43,3 +43,5 @@ logger = logging.getLogger(__name__)
 # 20:05:58 — fix: correct off-by-one in session_features
 
 # 20:05:58 — perf: add caching in session_features
+
+# 20:06:07 — docs: add module docstring to session_features
