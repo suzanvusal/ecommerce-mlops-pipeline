@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:53:03 — docs: fix typo in seasonality_detector
 
 # 20:24:49 — perf: add caching in seasonality_detector
+
+# 20:06:07 — perf: add caching in seasonality_detector
