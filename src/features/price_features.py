@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 20:50:12 — fix: remove unused import in price_features
 
 # 20:05:58 — perf: add caching in price_features
+
+# 20:06:07 — refactor: extract constant in price_features
