@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 20:26:12 — test: add assertion for return type in embedding_store
 
 # 20:15:20 — test: add assertion for return type in embedding_store
+
+# 20:17:19 — chore: add logging to embedding_store
