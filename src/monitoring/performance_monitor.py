@@ -15,3 +15,5 @@ logger = logging.getLogger(__name__)
 # 20:26:12 — refactor: rename variable for clarity in performance_monitor
 
 # 20:48:24 — style: run black formatter on performance_monitor
+
+# 20:17:19 — refactor: extract constant in performance_monitor
