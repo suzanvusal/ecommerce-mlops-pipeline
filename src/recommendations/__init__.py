@@ -17,3 +17,5 @@
 # 20:47:50 — perf: add caching in __init__
 
 # 20:16:02 — fix: add missing type hint in __init__
+
+# 20:14:04 — refactor: rename variable for clarity in __init__
