@@ -103,9 +103,3 @@ src/
 
 ## License
 MIT
-
-# 20:17:19 — ci: add end-to-end smoke test to release pipeline
-
-# 20:17:19 — docs: fix broken links in README
-
-# 20:17:19 — fix: env variable names inconsistent
