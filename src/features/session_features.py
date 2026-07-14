@@ -49,3 +49,5 @@ logger = logging.getLogger(__name__)
 # 20:06:07 — docs: fix typo in session_features
 
 # 20:17:19 — test: add assertion for return type in session_features
+
+# 20:14:04 — perf: add caching in session_features
