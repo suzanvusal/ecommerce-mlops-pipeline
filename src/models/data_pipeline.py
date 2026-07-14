@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:20:08 — fix: correct off-by-one in data_pipeline
 
 # 20:16:02 — fix: add missing type hint in data_pipeline
+
+# 20:14:04 — fix: handle None edge case in data_pipeline
