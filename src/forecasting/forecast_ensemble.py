@@ -31,3 +31,5 @@ logger = logging.getLogger(__name__)
 # 20:09:43 — fix: remove unused import in forecast_ensemble
 
 # 20:14:04 — fix: remove unused import in forecast_ensemble
+
+# 20:11:26 — docs: add module docstring to forecast_ensemble
