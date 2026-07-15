@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:16:23 — fix: remove unused import in dataset_assembler
 
 # 20:16:02 — chore: add logging to dataset_assembler
+
+# 20:11:26 — docs: update docstring in dataset_assembler
