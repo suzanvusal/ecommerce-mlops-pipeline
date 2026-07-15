@@ -39,3 +39,5 @@ logger = logging.getLogger(__name__)
 # 20:48:24 — docs: add module docstring to similarity_search
 
 # 20:24:49 — docs: update docstring in similarity_search
+
+# 20:11:26 — fix: remove unused import in similarity_search
