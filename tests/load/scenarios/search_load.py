@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 21:45:19 — refactor: rename variable for clarity in search_load
 
 # 20:14:04 — style: run black formatter on search_load
+
+# 20:11:26 — refactor: extract constant in search_load
