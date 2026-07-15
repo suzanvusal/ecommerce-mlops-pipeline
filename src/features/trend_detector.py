@@ -39,3 +39,5 @@ logger = logging.getLogger(__name__)
 # 20:16:23 — style: reorder imports in trend_detector
 
 # 20:11:26 — fix: remove unused import in trend_detector
+
+# 20:11:26 — chore: add logging to trend_detector
