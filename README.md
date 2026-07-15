@@ -103,5 +103,3 @@ src/
 
 ## License
 MIT
-
-# 20:14:04 — chore: final dependency audit
