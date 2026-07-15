@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:58:38 — test: add assertion for return type in test_product_embeddin
 
 # 20:49:35 — fix: add missing type hint in test_product_embeddings
+
+# 20:11:26 — test: add assertion for return type in test_product_embeddin
