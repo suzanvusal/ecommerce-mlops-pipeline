@@ -32,3 +32,5 @@
 # 20:17:17 — fix: handle None edge case in __init__
 
 # 20:05:58 — fix: handle None edge case in __init__
+
+# 20:03:26 — docs: add module docstring to __init__
