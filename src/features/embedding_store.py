@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 20:14:04 — chore: day 30 maintenance sweep
 
 # 20:03:26 — docs: fix typo in embedding_store
+
+# 20:03:26 — refactor: rename variable for clarity in embedding_store
