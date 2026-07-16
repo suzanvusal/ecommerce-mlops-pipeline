@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 20:48:24 — test: add assertion for return type in tower_dataset
 
 # 20:17:19 — docs: fix typo in tower_dataset
+
+# 20:03:26 — chore: add logging to tower_dataset
