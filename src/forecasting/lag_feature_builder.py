@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 20:10:47 — fix: add missing type hint in lag_feature_builder
 
 # 20:58:50 — docs: add module docstring to lag_feature_builder
+
+# 20:03:26 — docs: add module docstring to lag_feature_builder
