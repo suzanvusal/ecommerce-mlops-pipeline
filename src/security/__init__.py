@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 20:53:03 — fix: correct off-by-one in __init__
 
 # 20:06:07 — style: reorder imports in __init__
+
+# 20:03:26 — docs: fix typo in __init__
