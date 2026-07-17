@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 20:49:12 — fix: handle None edge case in significance_tester
 
 # 20:05:58 — fix: handle None edge case in significance_tester
+
+# 20:06:35 — docs: update docstring in significance_tester
