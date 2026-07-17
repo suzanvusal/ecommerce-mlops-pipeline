@@ -39,3 +39,5 @@ logger = logging.getLogger(__name__)
 # 20:16:23 — style: run black formatter on competitor_tracker
 
 # 20:05:58 — chore: add logging to competitor_tracker
+
+# 20:06:35 — refactor: extract constant in competitor_tracker
