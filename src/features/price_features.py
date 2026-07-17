@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 20:05:58 — perf: add caching in price_features
 
 # 20:06:07 — refactor: extract constant in price_features
+
+# 20:06:35 — refactor: rename variable for clarity in price_features
