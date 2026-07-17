@@ -28,3 +28,5 @@
 # 20:24:49 — chore: day 30 maintenance sweep
 
 # 20:11:26 — style: reorder imports in __init__
+
+# 20:06:35 — docs: add module docstring to __init__
