@@ -25,3 +25,5 @@
 # 20:50:12 — test: add assertion for return type in __init__
 
 # 20:48:24 — fix: remove unused import in __init__
+
+# 20:06:35 — fix: add missing type hint in __init__
