@@ -55,3 +55,5 @@ logger = logging.getLogger(__name__)
 # 20:22:14 — style: run black formatter on producer
 
 # 20:06:07 — chore: add logging to producer
+
+# 20:06:35 — fix: remove unused import in producer
