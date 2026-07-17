@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:53:03 — fix: correct off-by-one in feature_schema
 
 # 20:05:59 — chore: add logging to feature_schema
+
+# 20:06:35 — docs: add module docstring to feature_schema
