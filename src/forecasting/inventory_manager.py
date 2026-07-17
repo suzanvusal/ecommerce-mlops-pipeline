@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:16:02 — style: reorder imports in inventory_manager
 
 # 20:17:19 — chore: day 30 maintenance sweep
+
+# 20:06:35 — fix: add missing type hint in inventory_manager
