@@ -83,3 +83,5 @@ def test_purchase_event_item_count():
 # 20:49:12 — docs: add module docstring to test_schemas
 
 # 20:10:42 — test: add assertion for return type in test_schemas
+
+# 20:06:35 — docs: update docstring in test_schemas
