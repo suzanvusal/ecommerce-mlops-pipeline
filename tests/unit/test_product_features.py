@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 20:17:19 — style: run black formatter on test_product_features
 
 # 20:04:21 — fix: correct off-by-one in test_product_features
+
+# 20:04:21 — chore: add logging to test_product_features
