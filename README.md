@@ -103,7 +103,3 @@ src/
 
 ## License
 MIT
-
-# 20:06:35 — chore: archive development notebooks
-
-# 20:06:35 — docs: fix broken links in README
