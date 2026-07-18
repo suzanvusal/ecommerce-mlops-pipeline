@@ -57,3 +57,5 @@ logger = logging.getLogger(__name__)
 # 20:06:07 — chore: add logging to producer
 
 # 20:06:35 — fix: remove unused import in producer
+
+# 20:04:21 — fix: correct off-by-one in producer
