@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:15:20 — style: reorder imports in model_validator
 
 # 20:53:03 — style: reorder imports in model_validator
+
+# 20:04:21 — style: run black formatter on model_validator
