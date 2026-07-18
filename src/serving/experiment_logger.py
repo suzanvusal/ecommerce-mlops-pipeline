@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:48:03 — fix: remove unused import in experiment_logger
 
 # 20:48:04 — docs: update docstring in experiment_logger
+
+# 20:04:21 — style: run black formatter on experiment_logger
