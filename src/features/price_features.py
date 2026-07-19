@@ -39,3 +39,5 @@ logger = logging.getLogger(__name__)
 # 20:06:07 — refactor: extract constant in price_features
 
 # 20:06:35 — refactor: rename variable for clarity in price_features
+
+# 20:07:46 — test: add assertion for return type in price_features
