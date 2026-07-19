@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 20:58:50 — docs: add module docstring to lag_feature_builder
 
 # 20:03:26 — docs: add module docstring to lag_feature_builder
+
+# 20:07:46 — docs: add module docstring to lag_feature_builder
