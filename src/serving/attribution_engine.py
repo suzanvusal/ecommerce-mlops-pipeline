@@ -35,3 +35,5 @@ logger = logging.getLogger(__name__)
 # 20:22:14 — docs: update docstring in attribution_engine
 
 # 20:07:46 — fix: correct off-by-one in attribution_engine
+
+# 20:07:46 — style: run black formatter on attribution_engine
