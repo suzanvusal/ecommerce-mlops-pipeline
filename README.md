@@ -105,3 +105,5 @@ src/
 MIT
 
 # 20:07:46 — security: add SECURITY.md
+
+# 20:07:46 — docs: add business impact section to README
