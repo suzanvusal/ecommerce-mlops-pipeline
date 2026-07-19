@@ -33,3 +33,5 @@ logger = logging.getLogger(__name__)
 # 20:17:09 — test: add assertion for return type in consumer
 
 # 20:49:35 — test: add assertion for return type in consumer
+
+# 20:07:46 — chore: add logging to consumer
