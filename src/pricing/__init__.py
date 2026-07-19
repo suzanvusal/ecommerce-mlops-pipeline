@@ -27,3 +27,5 @@
 # 21:00:57 — test: add assertion for return type in __init__
 
 # 20:16:23 — style: reorder imports in __init__
+
+# 20:07:46 — fix: handle None edge case in __init__
