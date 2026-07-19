@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:09:43 — docs: add module docstring to request_models
 
 # 20:47:50 — fix: handle None edge case in request_models
+
+# 20:07:46 — docs: add module docstring to request_models
