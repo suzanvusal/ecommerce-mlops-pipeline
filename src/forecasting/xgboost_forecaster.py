@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:10:42 — fix: handle None edge case in xgboost_forecaster
 
 # 20:10:42 — refactor: rename variable for clarity in xgboost_forecaster
+
+# 20:22:34 — test: add assertion for return type in xgboost_forecaster
