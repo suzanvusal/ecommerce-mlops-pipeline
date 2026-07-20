@@ -36,3 +36,5 @@ __version__ = "0.1.0"
 # 20:09:43 — chore: day 30 maintenance sweep
 
 # 20:57:19 — perf: add caching in __init__
+
+# 20:22:34 — docs: add module docstring to __init__
