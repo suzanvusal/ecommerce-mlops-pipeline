@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 20:24:49 — fix: correct off-by-one in test_xgboost_forecaster
 
 # 20:06:07 — perf: add caching in test_xgboost_forecaster
+
+# 20:22:34 — fix: handle None edge case in test_xgboost_forecaster
