@@ -85,3 +85,5 @@ def test_purchase_event_item_count():
 # 20:10:42 — test: add assertion for return type in test_schemas
 
 # 20:06:35 — docs: update docstring in test_schemas
+
+# 20:22:34 — docs: fix typo in test_schemas
