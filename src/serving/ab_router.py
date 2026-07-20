@@ -19,3 +19,5 @@ logger = logging.getLogger(__name__)
 # 20:22:14 — fix: add missing type hint in ab_router
 
 # 20:24:49 — fix: remove unused import in ab_router
+
+# 20:22:34 — fix: add missing type hint in ab_router
