@@ -38,3 +38,5 @@ __version__ = "0.1.0"
 # 20:57:19 — perf: add caching in __init__
 
 # 20:22:34 — docs: add module docstring to __init__
+
+# 20:22:34 — style: reorder imports in __init__
