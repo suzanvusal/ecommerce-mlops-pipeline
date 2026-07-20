@@ -111,3 +111,5 @@ MIT
 # 20:22:34 — chore: final dependency audit
 
 # 20:22:34 — docs: fix broken links in README
+
+# 20:22:34 — fix: env variable names inconsistent
