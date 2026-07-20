@@ -105,3 +105,5 @@ src/
 MIT
 
 # 20:22:34 — security: add SECURITY.md
+
+# 20:22:34 — chore: tag v1.0.0 release
