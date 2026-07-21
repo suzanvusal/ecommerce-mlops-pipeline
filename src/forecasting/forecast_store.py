@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 20:48:24 — docs: update docstring in forecast_store
 
 # 20:06:07 — test: add assertion for return type in forecast_store
+
+# 20:19:15 — fix: handle None edge case in forecast_store
