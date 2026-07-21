@@ -18,3 +18,5 @@
 # 20:49:12 — docs: fix typo in __init__
 
 # 20:16:23 — fix: add missing type hint in __init__
+
+# 20:19:15 — style: run black formatter on __init__
