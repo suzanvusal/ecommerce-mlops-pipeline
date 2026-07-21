@@ -103,13 +103,3 @@ src/
 
 ## License
 MIT
-
-# 20:22:34 — security: add SECURITY.md
-
-# 20:22:34 — chore: tag v1.0.0 release
-
-# 20:22:34 — chore: final dependency audit
-
-# 20:22:34 — docs: fix broken links in README
-
-# 20:22:34 — fix: env variable names inconsistent
