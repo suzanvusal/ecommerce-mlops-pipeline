@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 20:10:42 — chore: day 30 maintenance sweep
 
 # 20:50:12 — refactor: extract constant in test_feature_store
+
+# 20:19:15 — chore: add logging to test_feature_store
