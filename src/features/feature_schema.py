@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 20:06:35 — docs: add module docstring to feature_schema
 
 # 20:04:21 — chore: day 30 maintenance sweep
+
+# 20:19:15 — chore: add logging to feature_schema
