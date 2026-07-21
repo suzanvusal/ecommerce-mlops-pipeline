@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:17:19 — chore: day 30 maintenance sweep
 
 # 20:06:35 — fix: add missing type hint in inventory_manager
+
+# 20:19:15 — fix: correct off-by-one in inventory_manager
