@@ -41,3 +41,5 @@ logger = logging.getLogger(__name__)
 # 20:24:49 — docs: update docstring in similarity_search
 
 # 20:11:26 — fix: remove unused import in similarity_search
+
+# 20:11:56 — style: reorder imports in similarity_search
