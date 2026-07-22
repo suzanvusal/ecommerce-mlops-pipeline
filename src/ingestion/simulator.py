@@ -156,3 +156,5 @@ class EcommerceSimulator:
 # 20:05:58 — fix: handle None edge case in simulator
 
 # 20:17:19 — docs: add module docstring to simulator
+
+# 20:11:56 — perf: add caching in simulator
