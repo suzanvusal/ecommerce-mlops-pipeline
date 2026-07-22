@@ -31,3 +31,5 @@
 # 21:50:18 — style: run black formatter on __init__
 
 # 20:26:12 — style: reorder imports in __init__
+
+# 20:11:56 — docs: add module docstring to __init__
