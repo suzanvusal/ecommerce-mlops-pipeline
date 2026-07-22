@@ -37,3 +37,5 @@ logger = logging.getLogger(__name__)
 # 20:17:19 — fix: correct off-by-one in model_promoter
 
 # 20:07:46 — chore: day 30 maintenance sweep
+
+# 20:11:56 — test: add assertion for return type in model_promoter
