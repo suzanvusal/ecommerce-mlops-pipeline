@@ -41,3 +41,5 @@ logger = logging.getLogger(__name__)
 # 20:22:34 — fix: handle None edge case in test_xgboost_forecaster
 
 # 20:11:56 — test: add assertion for return type in test_xgboost_forecast
+
+# 20:11:56 — fix: correct off-by-one in test_xgboost_forecaster
