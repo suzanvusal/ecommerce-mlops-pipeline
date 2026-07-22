@@ -17,3 +17,5 @@ logger = logging.getLogger(__name__)
 # 20:17:09 — fix: correct off-by-one in test_ensemble_ranker
 
 # 20:04:21 — refactor: rename variable for clarity in test_ensemble_ranke
+
+# 20:11:56 — docs: add module docstring to test_ensemble_ranker
