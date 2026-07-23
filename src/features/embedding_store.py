@@ -41,3 +41,5 @@ logger = logging.getLogger(__name__)
 # 20:03:26 — refactor: rename variable for clarity in embedding_store
 
 # 20:22:34 — perf: add caching in embedding_store
+
+# 20:14:26 — fix: add missing type hint in embedding_store
