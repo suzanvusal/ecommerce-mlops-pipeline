@@ -41,3 +41,5 @@ logger = logging.getLogger(__name__)
 # 20:11:56 — test: add assertion for return type in model_promoter
 
 # 20:14:26 — test: add assertion for return type in model_promoter
+
+# 20:14:26 — docs: fix typo in model_promoter
