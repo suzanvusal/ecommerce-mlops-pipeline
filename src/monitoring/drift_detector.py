@@ -21,3 +21,5 @@ logger = logging.getLogger(__name__)
 # 20:48:24 — refactor: extract constant in drift_detector
 
 # 20:11:56 — refactor: extract constant in drift_detector
+
+# 20:14:26 — docs: fix typo in drift_detector
