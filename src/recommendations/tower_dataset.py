@@ -27,3 +27,5 @@ logger = logging.getLogger(__name__)
 # 20:17:19 — docs: fix typo in tower_dataset
 
 # 20:03:26 — chore: add logging to tower_dataset
+
+# 20:14:26 — fix: handle None edge case in tower_dataset
