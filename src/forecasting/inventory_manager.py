@@ -25,3 +25,5 @@ logger = logging.getLogger(__name__)
 # 20:06:35 — fix: add missing type hint in inventory_manager
 
 # 20:19:15 — fix: correct off-by-one in inventory_manager
+
+# 20:14:26 — test: add assertion for return type in inventory_manager
