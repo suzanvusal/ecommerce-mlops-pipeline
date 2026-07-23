@@ -23,3 +23,5 @@ logger = logging.getLogger(__name__)
 # 20:22:34 — test: add assertion for return type in xgboost_forecaster
 
 # 20:19:15 — fix: correct off-by-one in xgboost_forecaster
+
+# 20:14:26 — docs: fix typo in xgboost_forecaster
