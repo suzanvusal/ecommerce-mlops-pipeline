@@ -29,3 +29,5 @@ logger = logging.getLogger(__name__)
 # 20:47:50 — refactor: rename variable for clarity in feature_store
 
 # 20:03:26 — perf: add caching in feature_store
+
+# 20:14:26 — docs: update docstring in feature_store
