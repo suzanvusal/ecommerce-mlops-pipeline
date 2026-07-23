@@ -7,3 +7,5 @@ Complete README, architecture diagrams, changelog, v1.0.0 release
 # 20:14:26 — security: add SECURITY.md
 
 # 20:14:26 — docs: add business impact section to README
+
+# 20:14:26 — docs: fix broken links in README
